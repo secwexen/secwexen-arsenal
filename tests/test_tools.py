@@ -1,6 +1,5 @@
 import pytest
 
-
 def test_import_offensive():
     try:
         import tools.offensive
