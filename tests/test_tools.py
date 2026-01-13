@@ -1,8 +1,3 @@
-"""
-Basic test suite for tools directory.
-This ensures that core modules import correctly.
-"""
-
 import pytest
 
 
