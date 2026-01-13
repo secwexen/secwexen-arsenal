@@ -17,7 +17,7 @@ Write-Host "[+] Starting Secwexen Auto Deployment..." -ForegroundColor Cyan
 # -----------------------------
 # Configuration
 # -----------------------------
-$RepoURL   = "https://github.com/secwexen/secwexen.git"
+$RepoURL   = "https://github.com/secwexen/secwexen-toolkit.git"
 $InstallDir = "C:\Secwexen"
 $VenvPath   = "$InstallDir\.venv"
 
