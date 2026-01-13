@@ -1,5 +1,5 @@
 """
-Secwexen - Firewall Watcher
+firewall_watcher.py
 Monitors firewall events and logs suspicious activity.
 
 Supports:
