@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# ==========================================
-#  Secwexen - Backup Watcher (Linux)
-#  Monitors a directory and triggers backup
-#  whenever a change is detected.
-# ==========================================
-
 SOURCE_DIR="/opt/secwexen"
 BACKUP_DIR="/var/backups/secwexen"
 LOG_FILE="/var/log/secwexen_backup.log"
