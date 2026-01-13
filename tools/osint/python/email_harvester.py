@@ -1,10 +1,3 @@
-"""
-email_harvester.py
-Basic OSINT module to collect email addresses from a target domain.
-
-Author: secwexen
-"""
-
 import re
 import socket
 from typing import Set, List
