@@ -1,11 +1,3 @@
-"""
-subdomain_finder.py
-OSINT module to discover subdomains using DNS resolution
-and optional HTTP validation.
-
-Author: secwexen
-"""
-
 import socket
 import requests
 from typing import List, Set
