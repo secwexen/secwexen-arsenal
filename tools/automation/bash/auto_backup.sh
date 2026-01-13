@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# ==========================================
-#  Secwexen - Automated Backup Script
-# ==========================================
 
 BACKUP_DIR="/var/backups/secwexen"
 SOURCE_DIR="/opt/secwexen"
