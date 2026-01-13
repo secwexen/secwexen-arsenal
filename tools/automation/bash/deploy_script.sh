@@ -1,11 +1,7 @@
 #!/bin/bash
 
-# ==========================================
-#  Secwexen - Deployment Script
-# ==========================================
-
 APP_DIR="/opt/secwexen"
-REPO_URL="https://github.com/secwexen/secwexen.git"
+REPO_URL="https://github.com/secwexen/secwexen-toolkit.git"
 
 echo "[+] Starting deployment..."
 
