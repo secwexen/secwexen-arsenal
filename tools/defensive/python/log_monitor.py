@@ -1,5 +1,5 @@
 """
-Secwexen - Log Monitor
+log_monitor.py
 Real-time monitoring of system logs for suspicious events.
 
 Supports:
@@ -16,7 +16,7 @@ import time
 from utils import log_info, log_warning, log_error
 
 
-LOG_FILE = "/var/log/log_monitor.log" if os.name != "nt" else "C:\\<computer-name>\\logs\\log_monitor.log"
+LOG_FILE = "/var/log/log_monitor.log" if os.name != "nt" else "C:\\computer-name\\logs\\log_monitor.log"
 
 SUSPICIOUS_KEYWORDS = [
     "failed",
