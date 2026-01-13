@@ -1,8 +1,3 @@
-"""
-Test suite for utils module.
-Covers logger, file operations and validators.
-"""
-
 import os
 import pytest
 
