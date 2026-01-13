@@ -1,14 +1,3 @@
-"""
-log_monitor.py
-Real-time monitoring of system logs for suspicious events.
-
-Supports:
-- Linux (syslog, auth.log, kern.log)
-- Windows (Security/System/Application event logs)
-
-Author: secwexen
-"""
-
 import os
 import platform
 import subprocess
