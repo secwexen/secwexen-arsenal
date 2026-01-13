@@ -1,0 +1,36 @@
+name: Security Issue
+description: Report a security vulnerability privately
+title: "[SECURITY] "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Do NOT disclose sensitive details publicly.**
+        Provide a high-level summary here. A maintainer will contact you for secure communication.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Security Issue Summary
+      placeholder: Short description of the vulnerability
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Potential Impact
+      placeholder: What could an attacker do with this vulnerability?
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps (High-Level Only)
+      placeholder: Provide general steps without sensitive details
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Notes
+      placeholder: Any extra context or information
