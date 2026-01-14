@@ -24,23 +24,24 @@ keywords = [
 ]
 
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Topic :: Security",
-    "Topic :: Software Development :: Libraries"
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
 ]
 
 dependencies = [
     "requests",
     "rich",
     "colorama",
-    "pytest",
 ]
+
+[project.optional-dependencies]
+dev = ["pytest"]
 
 [project.urls]
 Homepage = "https://github.com/secwexen/secwexen-toolkit/"
-Documentation = "https://github.com/secwexen/secwexen-toolkit/docs"
+Documentation = "https://github.com/secwexen/secwexen-toolkit/tree/main/docs"
 Issues = "https://github.com/secwexen/secwexen-toolkit/issues"
 
 [tool.setuptools.packages.find]
