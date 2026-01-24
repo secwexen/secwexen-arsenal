@@ -1,6 +1,6 @@
-# Contributing to Secwexen Toolkit
+# Contributing to Secwexen Arsenal
 
-Thank you for your interest in contributing to the Secwexen Toolkit!  
+Thank you for your interest in contributing to the Secwexen Arsenal!  
 This project aims to provide ethical, educational, and security-focused tools for network analysis, OSINT, automation, and defensive/offensive research.  
 All contributions must follow ethical and legal standards.
 
