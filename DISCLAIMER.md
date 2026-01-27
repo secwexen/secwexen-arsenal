@@ -1,5 +1,8 @@
 # Disclaimer
 
+**Version:** 1.0.0  
+**License:** Apache-2.0 License
+
 All tools, scripts, and resources provided in this repository are developed strictly for **educational**, **research**, and **authorized security testing** purposes.
 
 You are allowed to use these tools only in:
