@@ -1,207 +1,160 @@
 # Secwexen Architecture Overview
 
-Secwexen is a modular security framework designed to provide offensive, defensive, OSINT and automation capabilities in a clean, extensible and maintainable structure.  
-This document explains the internal architecture, module layout, design principles and interaction flow between components.
+Secwexen is a modular security framework designed to provide offensive, defensive, OSINT, and automation capabilities in a clean, extensible, and maintainable structure.
+This document explains the internal architecture, module layout, design principles, and interaction flow between components.
 
 ---
 
-## 1. High-Level Architecture
+### 2.1 Directory Structure
 
-Secwexen is built around four primary domains:
-
-- **Offensive** — Active security testing tools (port scanners, fuzzers, bruteforce modules)
-- **Defensive** — Monitoring, detection and system protection utilities
-- **OSINT** — Open-source intelligence collection modules
-- **Automation** — Scripts and helpers for workflow automation
-
-Supporting these domains are:
-
-- **utils/** — Shared helper functions (logging, validation, file operations)
-- **tests/** — Automated test suite ensuring stability and reliability
-- **examples/** — Demonstration scripts for quick usage
-- **docs/** — Documentation and design references
-
-The structure follows a clean separation-of-concerns model.
-
----
-
-## 2. Directory Structure
-
-```
-/
+```bash
+secwexen-arsenal/
 ├── tools/
-│   ├── offensive/
-│   ├── defensive/
-│   ├── osint/
-│   └── automation/
-│
-├── utils/
-├── tests/
-├── examples/
-└── docs/
+│   ├── offensive/           # Rust-based fast port scanner
+│   ├── defensive/           # Python, Bash, PowerShell tools
+│   ├── osint/               # Python OSINT tools
+│   └── automation/          # Bash & PowerShell automation scripts
+├── utils/                   # Shared helper modules
+├── tests/                   # Pytest test suite
+├── examples/                # Demo scripts
+└── docs/                    # Documentation
 ```
-
-Each module is self-contained and can be extended without affecting the rest of the system.
 
 ---
 
-## 3. Module Responsibilities
+### 2.2 Offensive Tools
 
-### 3.1 Offensive Tools
-Located under:
-
-```
+```bash
 tools/offensive/
+- fast_port_scanner/ (Rust)
 ```
 
-Responsibilities:
+**Responsibilities:**
 
-- Network scanning  
-- Service enumeration  
-- Web fuzzing  
-- Credential attacks  
-- Exploit templates  
+* Network scanning
+* Service enumeration
 
-Design principles:
+**Design Principles:**
 
-- Stateless functions  
-- Minimal external dependencies  
-- Clear input/output behavior  
+* Stateless, minimal external dependencies
+* CLI-based, binary executable
+
+> Note: There is no Python `port_scanner.py`. The correct tool is `fast_port_scanner`.
 
 ---
 
-### 3.2 Defensive Tools
-Located under:
+### 2.3 Defensive Tools
 
-```
+```bash
 tools/defensive/
+- bash/
+- powershell/
+- python/
 ```
 
-Responsibilities:
+**Responsibilities:**
 
-- Log monitoring  
-- Firewall event tracking  
-- Malware signature scanning  
-- Process inspection  
+* Log monitoring
+* Firewall tracking
+* Malware scanning
 
-Design principles:
+**Design Principles:**
 
-- Lightweight monitoring  
-- Cross-platform compatibility  
-- Safe read-only operations  
+* Lightweight and safe read-only operations
+* Cross-platform support
 
 ---
 
-### 3.3 OSINT Tools
-Located under:
+### 2.4 OSINT Tools
 
+```bash
+tools/osint/python/
+- email_harvester.py
+- subdomain_finder.py
+- username_lookup.py
 ```
-tools/osint/
-```
 
-Responsibilities:
+**Responsibilities:**
 
-- Subdomain enumeration  
-- Email harvesting  
-- Username footprinting  
-
-Design principles:
-
-- Passive information gathering  
-- API-friendly structure  
-- Modular data collectors  
+* Subdomain enumeration
+* Email harvesting
+* Username footprinting
 
 ---
 
-### 3.4 Automation Tools
-Located under:
+### 2.5 Automation Tools
 
-```
+```bash
 tools/automation/
+- bash/
+- powershell/
 ```
 
-Responsibilities:
+**Responsibilities:**
 
-- Backup automation  
-- Deployment scripts  
-- Cleanup utilities  
+* Backup
+* Deployment
+* Cleanup
 
-Design principles:
+**Design Principles:**
 
-- Shell-first design  
-- Minimal configuration  
-- Reusable workflow components  
-
----
-
-## 4. Shared Utilities
-
-The `utils/` directory provides core helper functions:
-
-- **logger.py** — Unified logging interface  
-- **file_ops.py** — File read/write helpers  
-- **validators.py** — Domain/IP/email validation  
-
-These utilities ensure consistency across all modules.
+* Shell-first design
+* Minimal configuration
+* Reusable workflow components
 
 ---
 
-## 5. Testing Architecture
+### 2.6 Shared Utilities
 
-The `tests/` directory contains:
+```bash
+utils/
+- logger.py
+- file_ops.py
+- validators.py
+```
 
-- Unit tests for utils  
-- Import tests for core modules  
-- Functional tests for tools  
-
-Testing principles:
-
-- Pytest-based  
-- No external dependencies  
-- Deterministic behavior  
+**Purpose:** Provide consistent helper functions across all modules.
 
 ---
 
-## 6. Example Scripts
+### 2.7 Examples
 
-The `examples/` directory demonstrates real-world usage:
+```bash
+examples/
+- osint_demo.py
+- defensive_demo.py
+- offensive_demo.py
+- basic_usage.md
+```
 
-- `osint_demo.py`
-- `offensive_demo.py`
-- `defensive_demo.py`
-- `basic_usage.md`
-
-These examples serve as onboarding material for new users.
-
----
-
-## 7. Design Principles
-
-Secwexen follows these architectural principles:
-
-### ✔ Modularity  
-Each tool is isolated and replaceable.
-
-### ✔ Extensibility  
-New tools can be added without modifying existing ones.
-
-### ✔ Maintainability  
-Consistent naming, structure and utilities.
-
-### ✔ Testability  
-Every module is testable in isolation.
-
-### ✔ Transparency  
-Clear documentation and predictable behavior.
+> `basic_usage.md` contains usage instructions and demonstration examples.
 
 ---
 
-## 8. Conclusion
- 
-The modular layout ensures that contributors can easily extend the framework while maintaining stability and clarity.
+### 2.8 Testing
 
-For further details, refer to:
+```bash
+tests/
+- test_core.py
+- test_tools.py
+- test_utils.py
+```
 
-- `docs/usage.md`
-- `examples/`
-- `tests/`
+**Principles:** Pytest-based, deterministic, isolated
+
+---
+
+### 2.9 Design Principles
+
+* **Modularity** – each tool is isolated
+* **Extensibility** – new tools can be added without modifying existing ones
+* **Maintainability** – consistent naming and folder structure
+* **Testability** – each module can be tested independently
+* **Transparency** – clear documentation and predictable behavior
+
+---
+
+### 2.10 Notes
+
+* Run commands are **not included here**; see `docs/basic_usage.md` for usage instructions.
+* This Architecture Overview focuses on **modular structure and responsibilities** only.
