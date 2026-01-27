@@ -46,7 +46,6 @@ secwexen-arsenal
 ├── .github/                     
 │
 ├── docs/                        # Project documentation
-│   └── basic_usage.md           # Basic usage guide
 │
 ├── examples/                    # Example and demo scripts
 │   ├── defensive_demo.py
@@ -111,6 +110,30 @@ secwexen-arsenal
 ├── pyproject.toml               
 └── requirements.txt             
 ```
+
+---
+
+## Installation
+
+### Requirements
+- Python 3.9+
+- Rust (cargo)
+- Linux / Windows
+- PowerShell 5+
+
+### Setup
+```bash
+python3 -m venv venv
+source venv/bin/activate        # Linux / macOS
+venv\Scripts\activate           # Windows
+pip install -r requirements.txt
+```
+
+---
+
+## Documentation
+
+- Detailed usage guide: [USAGE.md](docs/usage.md)
 
 ---
 
