@@ -44,11 +44,8 @@ Each tool is designed for real-world workflows, focusing on efficiency, clarity,
 ```
 secwexen-arsenal
 ├── .github/                     
-│
 ├── docs/                        # Project documentation
-│
 ├── examples/                    # Example and demo scripts
-│
 ├── tests/                       # Test suite
 │
 ├── tools/                       # Core security toolkit
@@ -71,7 +68,6 @@ secwexen-arsenal
 │       └── python/
 │
 ├── utils/                       # Shared utility modules
-│
 ├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
