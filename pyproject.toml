@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "secwexen-toolkit"
+name = "secwexen-arsenal"
 version = "1.0.0"
 description = "A modular offensive, defensive, OSINT and automation security toolkit."
 readme = "README.md"
@@ -40,9 +40,9 @@ dependencies = [
 dev = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/secwexen/secwexen-toolkit/"
-Documentation = "https://github.com/secwexen/secwexen-toolkit/tree/main/docs"
-Issues = "https://github.com/secwexen/secwexen-toolkit/issues"
+Homepage = "https://github.com/secwexen/secwexen-arsenal/"
+Documentation = "https://github.com/secwexen/secwexen-arsenal/tree/main/docs"
+Issues = "https://github.com/secwexen/secwexen-arsenal/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
