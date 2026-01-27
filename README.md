@@ -48,56 +48,29 @@ secwexen-arsenal
 ├── docs/                        # Project documentation
 │
 ├── examples/                    # Example and demo scripts
-│   ├── defensive_demo.py
-│   ├── offensive_demo.py
-│   └── osint_demo.py
 │
 ├── tests/                       # Test suite
-│   ├── test_core.py
-│   ├── test_tools.py
-│   └── test_utils.py
 │
 ├── tools/                       # Core security toolkit
 │   │
 │   ├── automation/              # Automation and DevOps scripts
 │   │   ├── bash/
-│   │   │   ├── auto_backup.sh
-│   │   │   ├── cleanup.sh
-│   │   │   └── deploy_script.sh
 │   │   └── powershell/
-│   │       ├── Auto-Deploy.ps1
-│   │       ├── Backup-Files.ps1
-│   │       └── Sync-Drives.ps1
 │   │
 │   ├── defensive/               # Defensive (Blue Team) tools
 │   │   ├── bash/
 │   │   ├── powershell/
-│   │   │   ├── Check-DefenderStatus.ps1
-│   │   │   ├── Get-EventLogs.ps1
-│   │   │   └── Monitor-Processes.ps1
 │   │   └── python/
-│   │       ├── firewall_watcher.py
-│   │       ├── log_monitor.py
-│   │       └── malware_scanner.py
 │   │
 │   ├── offensive/               # Offensive (Red Team) tools
 │   │   └── rust/
 │   │       └── fast_port_scanner/
-│   │           ├── Cargo.toml
 │   │           └── src/
-│   │               └── main.rs
 │   │
 │   └── osint/                   # OSINT tools
 │       └── python/
-│           ├── email_harvester.py
-│           ├── subdomain_finder.py
-│           └── username_lookup.py
 │
 ├── utils/                       # Shared utility modules
-│   ├── __init__.py
-│   ├── file_ops.py              # File operations
-│   ├── logger.py                # Logging utilities
-│   └── validators.py            # Input validation helpers
 │
 ├── .gitignore
 ├── CODE_OF_CONDUCT.md
