@@ -140,7 +140,7 @@ See the [LICENSE](LICENSE) file for full details.
 
 ## Development Status
 
-Secwexen Toolkit is under active development.  
+secwexen-arsenal is under active development.  
 Some files are placeholders and will be filled soon.  
 
 ---
