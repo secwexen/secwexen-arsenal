@@ -84,16 +84,29 @@ secwexen-arsenal
 ## Installation
 
 ### Requirements
+
 - Python 3.9+
 - Rust (cargo)
 - Linux / Windows
 - PowerShell 5+
 
 ### Setup
+
 ```bash
-python3 -m venv venv
-source venv/bin/activate        # Linux / macOS
-venv\Scripts\activate           # Windows
+# 1. Clone repository
+git clone https://github.com/secwexen/secwexen-arsenal.git
+cd aappmart
+
+# 2. (Optional but recommended) Create a virtual environment 
+# Linux / macOS
+python3 -m venv venv  
+source venv/bin/activate  
+
+# Windows (PowerShell)
+python -m venv venv  
+venv\Scripts\activate  
+
+# 3. Install dependencies
 pip install -r requirements.txt
 ```
 
