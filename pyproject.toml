@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "secwexen-arsenal"
-version = "1.0.0"
 description = "A modular offensive, defensive, OSINT and automation security toolkit."
 readme = "README.md"
 requires-python = ">=3.9"
