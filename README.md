@@ -1,3 +1,5 @@
+<!-- Offensive & Defensive Security Toolkit | Pentesting | OSINT | Threat Hunting | Security Automation | Malware Analysis | Exploit Development | Python • Rust • Bash • PowerShell -->
+
 # secwexen-arsenal  
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/build.yml?label=Build)
@@ -5,7 +7,6 @@
 ![Python Lint](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/pylint.yml?label=PyLint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/codeql.yml?label=CodeQL)
 ![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)
-![Repo Size](https://img.shields.io/github/repo-size/secwexen/secwexen-arsenal)
 ![Coverage](https://img.shields.io/codecov/c/github/secwexen/secwexen-arsenal)
 
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
