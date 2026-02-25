@@ -1,5 +1,3 @@
-<!-- Offensive & Defensive Security Toolkit | Pentesting | OSINT | Threat Hunting | Security Automation | Malware Analysis | Exploit Development | Python • Rust • Bash • PowerShell -->
-
 # secwexen-arsenal  
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/build.yml?label=Build)
