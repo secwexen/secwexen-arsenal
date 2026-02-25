@@ -1,10 +1,12 @@
 # Security Policy
+
 The Secwexen Toolkit is designed for **ethical**, **authorized**, and **educational** cybersecurity research.  
 All users and contributors must follow legal and responsible security practices.
 
 ---
 
 ## Supported Versions
+
 Security updates and fixes apply to the latest active branch:
 
 | Version | Supported |
@@ -34,6 +36,7 @@ We strongly recommend using this option for sensitive findings.
 ---
 
 ## Responsible Use
+
 The toolkit must only be used for:
 
 - Authorized penetration testing  
@@ -47,6 +50,7 @@ Any use outside these boundaries is strictly prohibited.
 ---
 
 ## What We Do Not Accept
+
 Contributions or modules involving:
 
 - Malware  
@@ -60,6 +64,7 @@ Such submissions will be rejected immediately.
 ---
 
 ## Security Improvements
+
 If you want to contribute to improving security:
 
 - Add safer defaults  
@@ -73,4 +78,5 @@ All improvements are welcome as long as they align with ethical guidelines.
 ---
 
 ## Thank You
+
 We appreciate your commitment to keeping Secwexen Toolkit safe, ethical, and useful for the cybersecurity community.
