@@ -17,7 +17,6 @@ Each tool is designed for real-world workflows, focusing on efficiency, clarity,
 ---
 
 ## Features 
-
 - Offensive security scripts for recon, enumeration, and exploitation  
 - Defensive utilities for log analysis, threat hunting, and incident response  
 - OSINT automation tools for intelligence gathering  
@@ -28,7 +27,6 @@ Each tool is designed for real-world workflows, focusing on efficiency, clarity,
 ---
 
 ## Technologies 
-
 - **Python** — automation, parsing, threat intel  
 - **Rust** — high-performance security tooling  
 - **Bash** — Linux workflow automation  
@@ -38,7 +36,6 @@ Each tool is designed for real-world workflows, focusing on efficiency, clarity,
 ---
 
 ## Project Structure
-
 ```
 secwexen-arsenal
 ├── .github/                     
@@ -111,13 +108,11 @@ pip install -r requirements.txt
 ---
 
 ## Documentation
-
 - Detailed usage guide: [basic_usage.md](docs/basic_usage.md)
 
 ---
 
 ## Ethical Use  
-
 All tools in this repository are developed **strictly for educational and ethical purposes**.  
 They are intended for use in:
 
@@ -130,21 +125,18 @@ I do **not** endorse or support illegal activity of any kind.
 ---
 
 ## License  
-
 This project is licensed under the **Apache-2.0 License**.  
 See the [LICENSE](LICENSE) file for full details.
 
 ---
 
 ## Development Status
-
 Secwexen Arsenal is under active development.  
 Some files are placeholders and will be filled soon. 
 
 ---
 
 ## Author  
-
 **Secwexen** – Project Author & Maintainer  
 **Role:** Project Manager | Lead Developer    
 **GitHub:** [github.com/secwexen](https://github.com/secwexen)  
