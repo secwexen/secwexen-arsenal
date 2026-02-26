@@ -3,8 +3,6 @@
 The Secwexen Toolkit is designed for **ethical**, **authorized**, and **educational** cybersecurity research.  
 All users and contributors must follow legal and responsible security practices.
 
----
-
 ## Supported Versions
 
 Security updates and fixes apply to the latest active branch:
@@ -13,8 +11,6 @@ Security updates and fixes apply to the latest active branch:
 |---------|-----------|
 | main    | Yes       |
 | older tags | No     |
-
----
 
 ## Reporting a Vulnerability
 
@@ -33,8 +29,6 @@ This method:
 
 We strongly recommend using this option for sensitive findings.
 
----
-
 ## Responsible Use
 
 The toolkit must only be used for:
@@ -46,8 +40,6 @@ The toolkit must only be used for:
 - OSINT and network analysis within legal boundaries  
 
 Any use outside these boundaries is strictly prohibited.
-
----
 
 ## What We Do Not Accept
 
@@ -61,8 +53,6 @@ Contributions or modules involving:
 
 Such submissions will be rejected immediately.
 
----
-
 ## Security Improvements
 
 If you want to contribute to improving security:
@@ -74,8 +64,6 @@ If you want to contribute to improving security:
 - Add detection or audit capabilities  
 
 All improvements are welcome as long as they align with ethical guidelines.
-
----
 
 ## Thank You
 
