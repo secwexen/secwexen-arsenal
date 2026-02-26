@@ -3,8 +3,6 @@
 Secwexen is a modular security framework designed to provide offensive, defensive, OSINT, and automation capabilities in a clean, extensible, and maintainable structure.
 This document explains the internal architecture, module layout, design principles, and interaction flow between components.
 
----
-
 ### 2.1 Directory Structure
 
 ```bash
@@ -20,8 +18,6 @@ secwexen-arsenal/
 └── docs/                    # Documentation
 ```
 
----
-
 ### 2.2 Offensive Tools
 
 ```bash
@@ -31,17 +27,15 @@ tools/offensive/
 
 **Responsibilities:**
 
-* Network scanning
-* Service enumeration
+- Network scanning
+- Service enumeration
 
 **Design Principles:**
 
-* Stateless, minimal external dependencies
-* CLI-based, binary executable
+- Stateless, minimal external dependencies
+- CLI-based, binary executable
 
 > Note: There is no Python `port_scanner.py`. The correct tool is `fast_port_scanner`.
-
----
 
 ### 2.3 Defensive Tools
 
@@ -54,14 +48,14 @@ tools/defensive/
 
 **Responsibilities:**
 
-* Log monitoring
-* Firewall tracking
-* Malware scanning
+- Log monitoring
+- Firewall tracking
+- Malware scanning
 
 **Design Principles:**
 
-* Lightweight and safe read-only operations
-* Cross-platform support
+- Lightweight and safe read-only operations
+- Cross-platform support
 
 ---
 
@@ -76,11 +70,9 @@ tools/osint/python/
 
 **Responsibilities:**
 
-* Subdomain enumeration
-* Email harvesting
-* Username footprinting
-
----
+- Subdomain enumeration
+- Email harvesting
+- Username footprinting
 
 ### 2.5 Automation Tools
 
@@ -92,17 +84,15 @@ tools/automation/
 
 **Responsibilities:**
 
-* Backup
-* Deployment
-* Cleanup
+- Backup
+- Deployment
+- Cleanup
 
 **Design Principles:**
 
-* Shell-first design
-* Minimal configuration
-* Reusable workflow components
-
----
+- Shell-first design
+- Minimal configuration
+- Reusable workflow components
 
 ### 2.6 Shared Utilities
 
@@ -114,8 +104,6 @@ utils/
 ```
 
 **Purpose:** Provide consistent helper functions across all modules.
-
----
 
 ### 2.7 Examples
 
@@ -129,8 +117,6 @@ examples/
 
 > `basic_usage.md` contains usage instructions and demonstration examples.
 
----
-
 ### 2.8 Testing
 
 ```bash
@@ -142,19 +128,15 @@ tests/
 
 **Principles:** Pytest-based, deterministic, isolated
 
----
-
 ### 2.9 Design Principles
 
-* **Modularity** – each tool is isolated
-* **Extensibility** – new tools can be added without modifying existing ones
-* **Maintainability** – consistent naming and folder structure
-* **Testability** – each module can be tested independently
-* **Transparency** – clear documentation and predictable behavior
-
----
+- **Modularity** – each tool is isolated
+- **Extensibility** – new tools can be added without modifying existing ones
+- **Maintainability** – consistent naming and folder structure
+- **Testability** – each module can be tested independently
+- **Transparency** – clear documentation and predictable behavior
 
 ### 2.10 Notes
 
-* Run commands are **not included here**; see `docs/basic_usage.md` for usage instructions.
-* This Architecture Overview focuses on **modular structure and responsibilities** only.
+- Run commands are **not included here**; see `docs/basic_usage.md` for usage instructions.
+- This Architecture Overview focuses on **modular structure and responsibilities** only.
