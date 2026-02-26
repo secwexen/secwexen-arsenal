@@ -10,8 +10,6 @@
 This repository serves as a central hub for my custom-built security utilities, written in **Python**, **Rust**, **Bash**, and **PowerShell**.  
 Each tool is designed for real-world workflows, focusing on efficiency, clarity, and practical use in controlled environments.
 
----
-
 ## Features 
 
 - Offensive security scripts for recon, enumeration, and exploitation  
@@ -21,8 +19,6 @@ Each tool is designed for real-world workflows, focusing on efficiency, clarity,
 - Python-based automation for SIEM, parsing, and data processing  
 - Bash & PowerShell helpers for system diagnostics and workflow optimization  
 
----
-
 ## Technologies 
 
 - **Python** — automation, parsing, threat intel  
@@ -30,8 +26,6 @@ Each tool is designed for real-world workflows, focusing on efficiency, clarity,
 - **Bash** — Linux workflow automation  
 - **PowerShell** — Windows diagnostics & IR  
 - **Linux** — primary development environment  
-
----
 
 ## Project Structure
 
@@ -73,8 +67,6 @@ secwexen-arsenal
 └── requirements.txt             
 ```
 
----
-
 ## Installation
 
 ### Requirements
@@ -104,13 +96,9 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
-
 ## Documentation
 
 - Detailed usage guide: [basic_usage.md](docs/basic_usage.md)
-
----
 
 ## Ethical Use  
 
@@ -123,21 +111,15 @@ They are intended for use in:
 
 I do **not** endorse or support illegal activity of any kind.
 
----
-
 ## License  
 
 This project is licensed under the **Apache-2.0 License**.  
 See the [LICENSE](LICENSE) file for full details.
 
----
-
 ## Development Status
 
 Secwexen Arsenal is under active development.  
 Some files are placeholders and will be filled soon. 
-
----
 
 ## Author  
 
