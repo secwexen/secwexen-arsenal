@@ -10,8 +10,6 @@ venv\Scripts\activate           # Windows
 pip install -r requirements.txt
 ```
 
----
-
 ### OSINT Tools
 
 ```bash
@@ -19,8 +17,6 @@ python -m tools/osint/python/email_harvester.py example.com
 python -m tools/osint/python/subdomain_finder.py example.com
 python -m tools/osint/python/username_lookup.py <username_or_target>
 ```
-
----
 
 ### Defensive Tools
 
@@ -30,8 +26,6 @@ python -m tools.defensive.python.log_monitor
 python -m tools.defensive.python.malware_scanner
 ```
 
----
-
 ### Example Demos
 
 ```bash
@@ -39,8 +33,6 @@ python examples/osint_demo.py
 python examples/defensive_demo.py
 python examples/offensive_demo.py
 ```
-
----
 
 ## Bash Scripts (Linux / macOS)
 
@@ -57,8 +49,6 @@ Run:
 ./tools/automation/bash/cleanup.sh
 ./tools/automation/bash/deploy_script.sh
 ```
-
----
 
 ## PowerShell Scripts (Windows)
 
@@ -82,8 +72,6 @@ Run scripts:
 .\tools\defensive\powershell\Monitor-Processes.ps1
 ```
 
----
-
 ## Rust Offensive Tool (Fast Port Scanner)
 
 ### Build
@@ -105,8 +93,6 @@ Or run binary directly:
 ./target/release/fast_port_scanner
 ```
 
----
-
 ## Running Tests
 
 ```bash
@@ -121,8 +107,6 @@ pytest tests/test_tools.py
 pytest tests/test_utils.py
 ```
 
----
-
 ## Makefile  
 
 ```bash
@@ -132,10 +116,8 @@ make test
 make run
 ```
 
----
-
 ## Notes
 
-* Offensive tools must only be used in environments where you have explicit authorization.
-* Some scripts may require **root / admin privileges**
-* Defensive tools may need access to system logs or firewall APIs
+- Offensive tools must only be used in environments where you have explicit authorization.
+- Some scripts may require **root / admin privileges**
+- Defensive tools may need access to system logs or firewall APIs
