@@ -54,7 +54,6 @@ secwexen-arsenal
 │       └── python/
 │
 ├── utils/                       # Shared utility modules
-├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── DISCLAIMER.md
