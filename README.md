@@ -1,7 +1,6 @@
 # secwexen-arsenal  
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/build.yml?label=Build)
-![Python Lint](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/pylint.yml?label=PyLint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/codeql.yml?label=CodeQL)
 ![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)
 
