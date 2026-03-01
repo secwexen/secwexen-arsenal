@@ -1,9 +1,5 @@
 # secwexen-arsenal  
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/build.yml?label=Build)
-![CodeQL](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/codeql.yml?label=CodeQL)
-![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)
-
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
 
 This repository serves as a central hub for my custom-built security utilities, written in **Python**, **Rust**, **Bash**, and **PowerShell**.  
