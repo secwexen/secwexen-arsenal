@@ -1,5 +1,7 @@
 # secwexen-arsenal  
 
+[![CODEQL](https://github.com/secwexen/secwexen-arsenal/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/secwexen/secwexen-arsenal/actions/workflows/codeql.yml)
+
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
 
 This repository serves as a central hub for my custom-built security utilities, written in **Python**, **Rust**, **Bash**, and **PowerShell**.  
