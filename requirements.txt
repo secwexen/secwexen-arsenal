@@ -17,7 +17,7 @@ lxml
 pandas
 
 # Security & Crypto
-cryptography>=46.0.5
+cryptography>=46.0.4
 
 # OSINT & Networking
 dnspython
