@@ -1,6 +1,6 @@
 # secwexen-arsenal  
 
-[![CODEQL](https://github.com/secwexen/secwexen-arsenal/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/secwexen/secwexen-arsenal/actions/workflows/codeql.yml)
+[![CodeQL](https://github.com/secwexen/secwexen-arsenal/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/secwexen/secwexen-arsenal/actions/workflows/codeql.yml)
 
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
 
