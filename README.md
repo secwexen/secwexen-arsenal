@@ -5,6 +5,22 @@
 This repository serves as a central hub for my custom-built security utilities, written in **Python**, **Rust**, **Bash**, and **PowerShell**.  
 Each tool is designed for real-world workflows, focusing on efficiency, clarity, and practical use in controlled environments.
 
+## About
+
+**Secwexen Arsenal** is a comprehensive collection of offensive, defensive, and automation tools built for cybersecurity research, penetration testing, digital forensics, and threat analysis. The project brings together multi‑language utilities—written in **Python**, **Rust**, **Bash**, and **PowerShell**—designed to support real‑world workflows across Red Team, Blue Team, and OSINT operations.
+
+The goal of this repository is to provide a unified, well‑structured toolkit that enhances productivity, accelerates analysis, and enables repeatable, controlled experimentation in secure environments. Every tool is built with a focus on clarity, performance, and practical applicability.
+
+## Overview
+
+Secwexen Arsenal is organized into modular categories covering the full spectrum of cybersecurity operations:
+
+- **Offensive Security** — Reconnaissance, enumeration, exploitation helpers, and Rust‑based high‑performance tooling.  
+- **Defensive Security** — Log analysis, threat hunting, incident response utilities, and system diagnostics.  
+- **OSINT Automation** — Tools for intelligence gathering, data enrichment, and automated collection workflows.  
+- **Cross‑Platform Automation** — Bash and PowerShell scripts for workflow optimization, parsing, and system interaction.  
+- **Shared Utilities** — Common modules and helper functions used across multiple tools.
+
 ## Features 
 
 - Offensive security scripts for recon, enumeration, and exploitation  
