@@ -118,6 +118,6 @@ Some files are placeholders and will be filled soon.
 
 ## Author  
 
-**Secwexen** – Project Author & Maintainer  
-**Role:** Project Manager | Lead Developer    
+**Secwexen** – Project Author, Lead & Maintainer  
+**Role:** Project Author, Lead & Maintainer    
 **GitHub:** [github.com/secwexen](https://github.com/secwexen)  
