@@ -87,7 +87,7 @@ secwexen-arsenal
 
 ### Requirements
 
-- Python 3.9+
+- Python 3.11+
 - Rust (cargo)
 - Linux / Windows
 - PowerShell 5+
