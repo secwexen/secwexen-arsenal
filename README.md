@@ -2,6 +2,8 @@
 
 **Official Website:** [https://secwexen.github.io/](https://secwexen.github.io/)
 
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/secwexen-arsenal)
+
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
 
 This repository serves as a central hub for my custom-built security utilities, written in **Python**, **Rust**, **Bash**, and **PowerShell**.  
