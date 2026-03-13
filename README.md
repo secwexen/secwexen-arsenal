@@ -75,11 +75,12 @@ secwexen-arsenal
 ├── CONTRIBUTING.md
 ├── DISCLAIMER.md
 ├── LICENSE
-├── Makefile                     
-├── README.md                    
-├── SECURITY.md                  
-├── pyproject.toml               
-└── requirements.txt             
+├── Makefile
+├── README.md
+├── SECURITY.md
+├── dev-requirements.txt
+├── pyproject.toml
+└── requirements.txt
 ```
 
 ## Installation
