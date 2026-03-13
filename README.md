@@ -111,6 +111,7 @@ pip install -r requirements.txt
 
 ## Documentation
 
+- [Architecture](architecture.md)
 - [Basic Usage.md](docs/basic_usage.md)
 - [Security Policy](SECURITY.md)
 
