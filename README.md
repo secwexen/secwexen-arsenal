@@ -1,4 +1,11 @@
-# secwexen-arsenal  
+# Secwexen Arsenal
+
+**Official Website:** [https://secwexen.github.io/](https://secwexen.github.io/)
+
+![Python](https://img.shields.io/badge/python-3.11+-blue)
+[![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal?branch=main)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/build.yml)](https://github.com/secwexen/secwexen-arsenal/blob/main/build.yml)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
 
@@ -90,7 +97,7 @@ secwexen-arsenal
 ```bash
 # 1. Clone repository
 git clone https://github.com/secwexen/secwexen-arsenal.git
-cd aappmart
+cd secwexen-arsenal
 
 # 2. (Optional but recommended) Create a virtual environment 
 # Linux / macOS
@@ -107,7 +114,8 @@ pip install -r requirements.txt
 
 ## Documentation
 
-- Detailed usage guide: [basic_usage.md](docs/basic_usage.md)
+- [Basic Usage.md](docs/basic_usage.md)
+- [Security Policy](SECURITY.md)
 
 ## Ethical Use  
 
