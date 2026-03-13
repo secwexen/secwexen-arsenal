@@ -1,20 +1,20 @@
-# Testing
+# === Testing ===
 pytest
 pytest-cov
 
-# Code Formatting
+# === Code Formatting ===
 black
 isort
 
-# Linting & Style
+# === Linting & Style ===
 flake8
 pylint
 
-# Type Checking
+# === Type Checking ===
 mypy
 
-# Security Analysis
+# === Security Analysis ===
 bandit
 
-# Git Hooks
+# === Git Hooks ===
 pre-commit
