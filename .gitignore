@@ -1,5 +1,8 @@
+# === Python ===
 # Byte‑compiled / optimized / DLL files
 __pycache__/
+.pytest_cache/
+.mypy_cache/
 *.py[cod]
 *.pyd
 *.pyo
@@ -27,6 +30,12 @@ pip‑cache/
 # VS Code Python settings
 .vscode/
 
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Tox virtual environments for testing
+.tox/
+
 # === Rust ===
 # Rust build artifacts
 target/
@@ -47,11 +56,14 @@ Cargo.lock
 *.pssc
 *.tmp
 *.log
+bin/
+*.dll
 
 # === Shell / Bash ===
 # Swap and backup files
 *~
 *.swp
+*.swo
 *.bak
 
 # Shell script logs
@@ -73,8 +85,10 @@ Cargo.lock
 Thumbs.db
 
 # IDE / Editor
+*.iml
 .idea/
 .vscode/
+out/
 
 # Logs & temp
 *.log
