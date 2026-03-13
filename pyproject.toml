@@ -4,44 +4,83 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "secwexen-arsenal"
-description = "A modular offensive, defensive, OSINT and automation security toolkit."
+description = "Open-source toolkit for cybersecurity research, pentesting, and threat analysis, featuring Python, Rust, Bash, and PowerShell tools for real-world workflows."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [
     { name = "secwexen" }
 ]
 
 keywords = [
-    "security",
-    "pentest",
-    "offensive-security",
-    "defensive-security",
+    "python",
+    "bash",
+    "rust",
     "osint",
-    "automation",
-    "toolkit"
+    "powershell",
+    "cybersecurity",
+    "bug-bounty",
+    "threat-hunting",
+    "malware-analysis",
+    "pentest",
+    "digital-forensics",
+    "ethical-hacking",
+    "network-security",
+    "threat-analysis",
+    "security-automation",
+    "redteam",
+    "exploit-development",
+    "vulnerability-research",
+    "automation-scripts",
+    "cli-security-tool"
 ]
 
 classifiers = [
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Security :: Vulnerability Management"
 ]
 
 dependencies = [
     "requests",
+    "aiohttp",
     "rich",
     "colorama",
+    "typer",
+    "python-dotenv",
+    "pydantic",
+    "beautifulsoup4",
+    "lxml",
+    "pandas",
+    "cryptography>=46.0.5",
+    "dnspython",
+    "python-whois",
+    "shodan",
+    "tqdm"
+]
+
+dev_dependencies = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "isort",
+    "flake8",
+    "pylint",
+    "mypy",
+    "bandit",
+    "pre-commit"
 ]
 
 [project.optional-dependencies]
 dev = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/secwexen/secwexen-arsenal/"
-Documentation = "https://github.com/secwexen/secwexen-arsenal/tree/main/docs"
-Issues = "https://github.com/secwexen/secwexen-arsenal/issues"
+Homepage = "https://secwexen.github.io/aapp-mart/"
+Repository = "https://github.com/secwexen/aapp-mart"
 
 [tool.setuptools.packages.find]
 where = ["."]
