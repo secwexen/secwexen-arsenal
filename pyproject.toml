@@ -90,7 +90,7 @@ dev = [
 
 [project.urls]
 Homepage = "https://secwexen.github.io/"
-Repository = "https://github.com/secwexen/aapp-mart"
+Repository = "https://github.com/secwexen/secwexen-arsenal"
 
 [tool.setuptools.packages.find]
 where = ["."]
