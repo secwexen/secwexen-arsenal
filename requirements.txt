@@ -1,28 +1,28 @@
-# HTTP & API
+# === HTTP & API ===
 requests
 aiohttp
 
-# CLI & Output
+# === CLI & Output ===
 rich
 colorama
 typer
 
-# Environment & Config
+# === Environment & Config ===
 python-dotenv
 pydantic
 
-# Parsing & Data Processing
+# === Parsing & Data Processing ===
 beautifulsoup4
 lxml
 pandas
 
-# Security & Crypto
+# === Security & Crypto ===
 cryptography>=46.0.5
 
-# OSINT & Networking
+# === OSINT & Networking ===
 dnspython
 python-whois
 shodan
 
-# Concurrency & Performance
+# === Concurrency & Performance ===
 tqdm
