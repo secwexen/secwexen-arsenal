@@ -2,9 +2,6 @@
 
 **Official Website:** [https://secwexen.github.io/](https://secwexen.github.io/)
 
-[![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal?branch=main)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
-[![Build](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/build.yml)](https://github.com/secwexen/secwexen-arsenal/blob/main/build.yml)
-
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
 
 This repository serves as a central hub for my custom-built security utilities, written in **Python**, **Rust**, **Bash**, and **PowerShell**.  
