@@ -1,0 +1,20 @@
+# Testing
+pytest
+pytest-cov
+
+# Code Formatting
+black
+isort
+
+# Linting & Style
+flake8
+pylint
+
+# Type Checking
+mypy
+
+# Security Analysis
+bandit
+
+# Git Hooks
+pre-commit
