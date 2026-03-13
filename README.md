@@ -2,7 +2,6 @@
 
 **Official Website:** [https://secwexen.github.io/](https://secwexen.github.io/)
 
-![Python](https://img.shields.io/badge/python-3.11+-blue)
 [![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal?branch=main)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
 [![Build](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/build.yml)](https://github.com/secwexen/secwexen-arsenal/blob/main/build.yml)
 
