@@ -76,10 +76,20 @@ dev_dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "isort",
+    "flake8",
+    "pylint",
+    "mypy",
+    "bandit",
+    "pre-commit"
+]
 
 [project.urls]
-Homepage = "https://secwexen.github.io/aapp-mart/"
+Homepage = "https://secwexen.github.io/"
 Repository = "https://github.com/secwexen/aapp-mart"
 
 [tool.setuptools.packages.find]
