@@ -1,4 +1,4 @@
-# Secwexen Arsenal
+# Secwexen Arsenal | Cybersecurity Toolkit
 
 **Official Website:** [https://secwexen.github.io/](https://secwexen.github.io/)
 
