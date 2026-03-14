@@ -24,7 +24,7 @@ Secwexen Arsenal is organized into modular categories covering the full spectrum
 - **Cross‑Platform Automation** — Bash and PowerShell scripts for workflow optimization, parsing, and system interaction.  
 - **Shared Utilities** — Common modules and helper functions used across multiple tools.
 
-## Features 
+## Features
 
 - Offensive security scripts for recon, enumeration, and exploitation  
 - Defensive utilities for log analysis, threat hunting, and incident response  
@@ -33,13 +33,13 @@ Secwexen Arsenal is organized into modular categories covering the full spectrum
 - Python-based automation for SIEM, parsing, and data processing  
 - Bash & PowerShell helpers for system diagnostics and workflow optimization  
 
-## Technologies 
+## Languages
 
-- **Python** — automation, parsing, threat intel  
-- **Rust** — high-performance security tooling  
-- **Bash** — Linux workflow automation  
-- **PowerShell** — Windows diagnostics & IR  
-- **Linux** — primary development environment  
+- **Python**
+- **Rust**
+- **Bash**
+- **PowerShell**
+- **Linux**
 
 ## Project Structure
 
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 - [Basic Usage](docs/basic_usage.md)
 - [Security Policy](SECURITY.md)
 
-## Ethical Use  
+## Ethical Use
 
 All tools in this repository are developed **strictly for educational and ethical purposes**.  
 They are intended for use in:
@@ -126,7 +126,7 @@ They are intended for use in:
 
 I do **not** endorse or support illegal activity of any kind.
 
-## License  
+## License
 
 Copyright © 2026 secwexen.
 
@@ -138,7 +138,7 @@ See the [LICENSE](LICENSE) file for full details.
 Secwexen Arsenal is under active development.  
 Some files are placeholders and will be filled soon. 
 
-## Author  
+## Author
 
 **Secwexen** – Project Author, Lead & Maintainer    
 **GitHub:** [github.com/secwexen](https://github.com/secwexen)  
