@@ -68,7 +68,6 @@ secwexen-arsenal
 │       └── python/
 │
 ├── utils/                       # Shared utility modules
-├── CODE_OF_CONDUCT.md
 ├── DISCLAIMER.md
 ├── LICENSE
 ├── Makefile
