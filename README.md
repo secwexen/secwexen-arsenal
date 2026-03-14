@@ -86,7 +86,7 @@ secwexen-arsenal
 - Python 3.11+
 - Rust (cargo)
 - Linux / Windows
-- PowerShell 5+
+- PowerShell 7+
 
 ### Setup
 
