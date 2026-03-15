@@ -132,12 +132,6 @@ Copyright © 2026 secwexen.
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for full details.
 
-## Development Status
-
-**Secwexen Arsenal** is currently in **Early Development / Beta** stage.
-
-Some files are placeholders and will be filled soon. 
-
 ## Author
 
 **Secwexen** – Project Author, Lead & Maintainer    
