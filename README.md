@@ -2,6 +2,7 @@
 
 **Official Website:** [https://secwexen.github.io/](https://secwexen.github.io/)
 
+[![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal?branch=main)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/secwexen-arsenal)
 
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
