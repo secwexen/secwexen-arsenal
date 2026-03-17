@@ -131,6 +131,10 @@ Copyright © 2026 secwexen.
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for full details.
 
+## Security
+
+For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](/SECURITY.md).
+
 ## Author
 
 **Secwexen** – Project Author, Lead & Maintainer    
