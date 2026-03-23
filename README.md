@@ -105,6 +105,9 @@ venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Install dev dependencies
+pip install -r dev-requirements.txt
 ```
 
 ## Documentation
