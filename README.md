@@ -15,7 +15,6 @@ The goal of this repository is to provide a unified, well‑structured toolkit t
 - Defensive utilities for log analysis, threat hunting, and incident response  
 - OSINT automation tools for intelligence gathering  
 - Rust-based CLI tools for performance-critical tasks  
-- Python-based automation for SIEM, parsing, and data processing  
 - Bash & PowerShell helpers for system diagnostics and workflow optimization  
 
 ## Languages
