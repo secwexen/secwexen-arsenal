@@ -17,14 +17,6 @@ The goal of this repository is to provide a unified, well‑structured toolkit t
 - Rust-based CLI tools for performance-critical tasks  
 - Bash & PowerShell helpers for system diagnostics and workflow optimization  
 
-## Languages
-
-- **Python**
-- **Rust**
-- **Bash**
-- **PowerShell**
-- **Linux**
-
 ## Project Structure
 
 ```
