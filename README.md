@@ -3,10 +3,6 @@
 [![CodeQL](https://github.com/secwexen/secwexen-arsenal/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main&event=push)](https://github.com/secwexen/secwexen-arsenal/actions/workflows/github-code-scanning/codeql)
 [![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal?branch=main)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
 
-**A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
-
-This repository serves as a central hub for my custom-built security utilities, written in **Python**, **Rust**, **Bash**, and **PowerShell**.  
-
 ## About
 
 **Secwexen Arsenal** is a comprehensive collection of offensive, defensive, and automation tools built for cybersecurity research, penetration testing, digital forensics, and threat analysis. The project brings together multi‑language utilities—written in **Python**, **Rust**, **Bash**, and **PowerShell**—designed to support real‑world workflows across Red Team, Blue Team, and OSINT operations.
