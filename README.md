@@ -9,6 +9,12 @@
 
 The goal of this repository is to provide a unified, well‑structured toolkit that enhances productivity, accelerates analysis, and enables repeatable, controlled experimentation in secure environments. Every tool is built with a focus on clarity, performance, and practical applicability.
 
+## Overview
+
+**Secwexen Arsenal** is designed as a practical, workflow-oriented cybersecurity toolkit that brings together essential utilities for everyday security operations.
+
+Instead of isolated scripts, this repository focuses on **usable, task-driven tooling**—whether you're scanning targets, analyzing logs, automating investigations, or collecting intelligence. Each component is structured to be easily executable, adaptable, and integrable into real-world environments.
+
 ## Features
 
 - Offensive security scripts for recon, enumeration, and exploitation  
