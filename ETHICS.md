@@ -31,12 +31,6 @@ This ethics document clarifies acceptable usage and responsibilities when workin
 - Always operate tools in isolated or test environments when possible.
 - Do not expose production systems or live networks to unmanaged risk.
 
-## Disclaimer
-
-- This repository is provided “**as is**” without warranties of any kind.
-- The maintainer and contributors are **not responsible for misuse, damage, or legal consequences** arising from use of this project.
-- By using these tools, you agree to uphold ethical standards, professional responsibility, and compliance with the law.
-
 ---
 
 **Maintainer:** secwexen  
