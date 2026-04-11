@@ -1,7 +1,5 @@
 # Disclaimer
 
-**License:** MIT License
-
 All tools, scripts, and resources provided in this repository are developed strictly for **educational**, **research**, and **authorized security testing** purposes.
 
 You are allowed to use these tools only in:
