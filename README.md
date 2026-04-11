@@ -120,8 +120,3 @@ For full details, see [DISCLAIMER.md](/DISCLAIMER.md).
 ## Security
 
 For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](/SECURITY.md).
-
-## Author
-
-**Secwexen** – Project Author, Lead & Maintainer    
-**GitHub:** [github.com/secwexen](https://github.com/secwexen)  
