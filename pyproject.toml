@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "secwexen-arsenal"
 description = "Open-source toolkit for cybersecurity research, pentesting, and threat analysis, featuring Python, Rust, Bash, and PowerShell tools for real-world workflows."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { file = "LICENSE" }
 authors = [
     { name = "secwexen" }
