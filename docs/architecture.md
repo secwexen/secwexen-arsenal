@@ -35,7 +35,7 @@ tools/offensive/
 - Stateless, minimal external dependencies
 - CLI-based, binary executable
 
-> [NOTE!]
+> [!NOTE]
 > There is no Python `port_scanner.py`. The correct tool is `fast_port_scanner`.
 
 ### 2.3 Defensive Tools
