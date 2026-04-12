@@ -30,8 +30,3 @@ This ethics document clarifies acceptable usage and responsibilities when workin
 
 - Always operate tools in isolated or test environments when possible.
 - Do not expose production systems or live networks to unmanaged risk.
-
----
-
-**Maintainer:** secwexen  
-**Date:** 2026‑03‑17  
