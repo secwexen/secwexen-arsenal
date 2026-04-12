@@ -35,7 +35,8 @@ tools/offensive/
 - Stateless, minimal external dependencies
 - CLI-based, binary executable
 
-> Note: There is no Python `port_scanner.py`. The correct tool is `fast_port_scanner`.
+> [NOTE!]
+> There is no Python `port_scanner.py`. The correct tool is `fast_port_scanner`.
 
 ### 2.3 Defensive Tools
 
@@ -56,8 +57,6 @@ tools/defensive/
 
 - Lightweight and safe read-only operations
 - Cross-platform support
-
----
 
 ### 2.4 OSINT Tools
 
