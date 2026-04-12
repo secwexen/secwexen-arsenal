@@ -115,8 +115,8 @@ See the [LICENSE](LICENSE) file for full details.
 
 The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences. 
 
-For full details, see [DISCLAIMER.md](/DISCLAIMER.md).
+For full details, see [DISCLAIMER.md](DISCLAIMER.md).
 
 ## Security
 
-For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](/SECURITY.md).
+For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](SECURITY.md).
