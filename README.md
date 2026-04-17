@@ -70,14 +70,10 @@ secwexen-arsenal
 git clone https://github.com/secwexen/secwexen-arsenal.git
 cd secwexen-arsenal
 
-# 2. (Optional but recommended) Create a virtual environment 
-# Linux / macOS
-python3 -m venv venv  
-source venv/bin/activate  
-
-# Windows (PowerShell)
-python -m venv venv  
-venv\Scripts\activate  
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -91,6 +87,9 @@ pip install -r dev-requirements.txt
 - [Architecture](docs/architecture.md)
 - [Installation](docs/installation.md)
 - [Basic Usage](docs/basic_usage.md)
+- [Roadmap & Milestones](ROADMAP.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md)
 - [Security Policy](SECURITY.md)
 
 ## Ethical Use
