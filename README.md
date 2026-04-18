@@ -81,14 +81,11 @@ pip install -r requirements.txt
 pip install -r dev-requirements.txt
 ```
 
-## Documentation
+## Docs & Resources
 
 - [Architecture](docs/architecture.md)
 - [Installation](docs/installation.md)
 - [Basic Usage](docs/basic_usage.md)
-- [Roadmap & Milestones](ROADMAP.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
 - [Security Policy](SECURITY.md)
 
 ## Ethical Use
