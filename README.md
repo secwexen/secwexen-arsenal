@@ -56,14 +56,13 @@ secwexen-arsenal
 
 ## Installation
 
-### Requirements
+### Python Requirements
 
-- Python 3.11+
-- Rust (cargo)
-- Linux / Windows
-- PowerShell 7+
+- Python **3.11+**  
+- pip 23+  
+- Virtual environment recommended
 
-### Setup
+## Quick Start
 
 ```bash
 # 1. Clone repository
