@@ -2,7 +2,6 @@
 
 Secwexen Arsenal | Cybersecurity Toolkit
 
-[![CodeQL](https://github.com/secwexen/secwexen-arsenal/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main&event=push)](https://github.com/secwexen/secwexen-arsenal/actions/workflows/github-code-scanning/codeql)
 [![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal?branch=main)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
 
 ## About
