@@ -10,6 +10,21 @@ Secwexen Arsenal | Cybersecurity Toolkit
 
 The goal of this repository is to provide a unified, well‑structured toolkit that enhances productivity, accelerates analysis, and enables repeatable, controlled experimentation in secure environments. Every tool is built with a focus on clarity, performance, and practical applicability.
 
+## Ethical Use
+
+All tools in this repository are developed **strictly for educational and ethical purposes**.  
+They are intended for use in:
+
+- Controlled lab environments  
+- Authorized penetration tests  
+- Research and learning  
+
+I do **not** endorse or support illegal activity of any kind.
+
+## Disclaimer
+
+The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
+
 ## Features
 
 - Offensive security scripts for recon, enumeration, and exploitation  
@@ -88,27 +103,12 @@ pip install -r dev-requirements.txt
 - [Basic Usage](docs/basic_usage.md)
 - [Security Policy](SECURITY.md)
 
-## Ethical Use
-
-All tools in this repository are developed **strictly for educational and ethical purposes**.  
-They are intended for use in:
-
-- Controlled lab environments  
-- Authorized penetration tests  
-- Research and learning  
-
-I do **not** endorse or support illegal activity of any kind.
-
 ## License
 
 Copyright © 2026 secwexen.
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for full details.
-
-## Disclaimer
-
-The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
 
 ## Security
 
