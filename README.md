@@ -75,7 +75,11 @@ secwexen-arsenal
 ### Requirements
 
 - Python **3.11+**  
-- pip **23+**
+- pip **23+**  
+- Git  
+- Rust (cargo)  
+- PowerShell **7+**  
+- Bash (5+ recommended)
 
 ## Quick Start
 
