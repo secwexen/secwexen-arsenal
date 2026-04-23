@@ -79,7 +79,7 @@ secwexen-arsenal
 - Git  
 - Rust (cargo)  
 - PowerShell **7+**  
-- Bash (5+ recommended)
+- Bash **5+**
 
 ## Quick Start
 
