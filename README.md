@@ -2,6 +2,7 @@
 
 Secwexen Arsenal | Cybersecurity Toolkit
 
+[![Build](https://github.com/secwexen/secwexen-arsenal/actions/workflows/ci.yml/badge.svg)](https://github.com/secwexen/secwexen-arsenal/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal?branch=main)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
 
 ## About
