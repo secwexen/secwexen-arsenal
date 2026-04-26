@@ -21,7 +21,7 @@ They are intended for use in:
 
 I do **not** endorse or support illegal activity of any kind.
 
-## Disclaimer
+## Legal Disclaimer
 
 The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
 
