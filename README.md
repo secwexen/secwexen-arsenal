@@ -10,7 +10,7 @@ Secwexen Arsenal | Cybersecurity Toolkit
 
 The goal of this repository is to provide a unified, well‑structured toolkit that enhances productivity, accelerates analysis, and enables repeatable, controlled experimentation in secure environments. Every tool is built with a focus on clarity, performance, and practical applicability.
 
-## Ethical Use
+## Legal & Authorized Use Only
 
 All tools in this repository are developed **strictly for educational and ethical purposes**.  
 They are intended for use in:
