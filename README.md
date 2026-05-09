@@ -99,7 +99,6 @@ pip install -r dev-requirements.txt
 ## Docs & Resources
 
 - [Architecture](docs/architecture.md)
-- [Installation](docs/installation.md)
 - [Basic Usage](docs/basic_usage.md)
 - [Security Policy](SECURITY.md)
 
