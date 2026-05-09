@@ -113,8 +113,3 @@ See the [LICENSE](LICENSE) file for full details.
 ## Security
 
 For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](SECURITY.md).
-
-## Author
-
-**Secwexen** – Project Lead & Maintainer    
-**GitHub:** [https://github.com/secwexen](https://github.com/secwexen)
