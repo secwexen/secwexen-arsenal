@@ -1,21 +1,12 @@
 # Secwexen Arsenal
 
+[![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
+
 ## About
 
 **Secwexen Arsenal** is a comprehensive collection of offensive, defensive, and automation tools built for cybersecurity research, penetration testing, digital forensics, and threat analysis. The project brings together multi‑language utilities—written in **Python**, **Rust**, **Bash**, and **PowerShell**—designed to support real‑world workflows across Red Team, Blue Team, and OSINT operations.
 
 The goal of this repository is to provide a unified, well‑structured toolkit that enhances productivity, accelerates analysis, and enables repeatable, controlled experimentation in secure environments. Every tool is built with a focus on clarity, performance, and practical applicability.
-
-## Legal & Authorized Use Only
-
-All tools in this repository are developed **strictly for educational and ethical purposes**.  
-They are intended for use in:
-
-- Controlled lab environments  
-- Authorized penetration tests  
-- Research and learning  
-
-I do **not** endorse or support illegal activity of any kind.
 
 ## Legal Disclaimer
 
@@ -27,43 +18,45 @@ The contents of this repository are for educational and research purposes. The r
 - Defensive utilities for log analysis, threat hunting, and incident response  
 - OSINT automation tools for intelligence gathering  
 - Rust-based CLI tools for performance-critical tasks  
-- Bash & PowerShell helpers for system diagnostics and workflow optimization  
+- Bash & PowerShell helpers for system diagnostics and workflow optimization
+
+## Tool Index
+
+| Category | Tool | Language | Description |
+|----------|------|----------|-------------|
+| Offensive | fast_port_scanner.rs | Rust | High-speed TCP port scanner |
+| Defensive | firewall_watcher.py | Python | Firewall activity monitoring |
+| Defensive | log_monitor.py | Python | System log monitoring utility |
+| Defensive | malware_scanner.py | Python | Basic malware scanning helper |
+| OSINT | email_harvester.py | Python | Email collection utility |
+| OSINT | subdomain_finder.py | Python | Subdomain enumeration |
+| OSINT | username_lookup.py | Python | Username footprint lookup |
+| Automation | auto_backup.sh | Bash | Automated backup workflow |
+| Automation | cleanup.sh | Bash | Cleanup and maintenance helper |
+| Automation | deploy_script.sh | Bash | Deployment automation |
+| Automation | Auto-Deploy.ps1 | PowerShell | Windows deployment helper |
+| Automation | Backup-Files.ps1 | PowerShell | File backup automation |
+| Automation | Sync-Drives.ps1 | PowerShell | Drive synchronization utility |
 
 ## Project Structure
 
 ```
 secwexen-arsenal
-├── docs/                        # Project documentation
-├── examples/                    # Example and demo scripts
-├── tests/                       # Test suite
-├── tools/                       # Core security toolkit
-│   │
-│   ├── automation/              # Automation and DevOps scripts
-│   │   ├── bash/
-│   │   └── powershell/
-│   │
-│   ├── defensive/               # Defensive (Blue Team) tools
-│   │   ├── bash/
-│   │   ├── powershell/
-│   │   └── python/
-│   │
-│   ├── offensive/               # Offensive (Red Team) tools
-│   │   └── rust/
-│   │       └── fast_port_scanner/
-│   │           └── src/
-│   │
-│   └── osint/                   # OSINT tools
-│       └── python/
-│
-├── utils/                       # Shared utility modules
+├── docs/
+├── examples/
+├── tests/
+├── tools/
+│   ├── automation/
+│   ├── defensive/
+│   ├── offensive/
+│   └── osint/
+├── utils/
 ├── DISCLAIMER.md
+├── ETHICS.md
 ├── LICENSE
 ├── Makefile
 ├── README.md
-├── SECURITY.md
-├── dev-requirements.txt
-├── pyproject.toml
-└── requirements.txt
+└── SECURITY.md
 ```
 
 ## Installation
@@ -108,7 +101,3 @@ Copyright © 2026 secwexen.
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for full details.
-
-## Security
-
-For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](SECURITY.md).
