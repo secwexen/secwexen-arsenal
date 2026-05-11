@@ -35,7 +35,7 @@ The goal of this repository is to provide a unified, well‑structured toolkit t
 ## Project Structure
 
 ```
-secwexen-arsenal
+secwexen-arsenal/
 ├── docs/
 ├── examples/
 ├── tests/
