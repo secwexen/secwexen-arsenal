@@ -6,10 +6,6 @@
 
 The goal of this repository is to provide a unified, well‑structured toolkit that enhances productivity, accelerates analysis, and enables repeatable, controlled experimentation in secure environments. Every tool is built with a focus on clarity, performance, and practical applicability.
 
-## Legal Disclaimer
-
-The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
-
 ## Features
 
 - Offensive security scripts for recon, enumeration, and exploitation  
@@ -92,6 +88,10 @@ pip install -r dev-requirements.txt
 - [Architecture](docs/architecture.md)
 - [Basic Usage](docs/basic_usage.md)
 - [Security Policy](SECURITY.md)
+
+## Legal Disclaimer
+
+The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
 
 ## License
 
