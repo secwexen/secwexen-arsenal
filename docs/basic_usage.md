@@ -1,4 +1,6 @@
-# Running the Tools
+# Basic Usage
+
+## Running the Tools
 
 ## Setup 
 
