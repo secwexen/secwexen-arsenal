@@ -1,7 +1,5 @@
 # Basic Usage
 
-## Running the Tools
-
 ## Setup 
 
 ```bash
