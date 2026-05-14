@@ -19,6 +19,8 @@ pip install -r requirements.txt
 pip install -r dev-requirements.txt
 ```
 
+## Running the Tools
+
 ### OSINT Tools
 
 ```bash
@@ -65,13 +67,13 @@ Run PowerShell **as Administrator**.
 
 Allow script execution:
 
-```powershell
+```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 Run scripts:
 
-```powershell
+```bash
 .\tools\automation\powershell\Auto-Deploy.ps1
 .\tools\automation\powershell\Backup-Files.ps1
 .\tools\automation\powershell\Sync-Drives.ps1
