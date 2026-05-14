@@ -1,6 +1,6 @@
 # Architecture Overview
 
-Secwexen is a modular security framework designed to provide offensive, defensive, OSINT, and automation capabilities in a clean, extensible, and maintainable structure.
+Secwexen is a modular security framework designed to provide offensive, defensive, OSINT, and automation capabilities in a clean, extensible, and maintainable structure.  
 This document explains the internal architecture, module layout, design principles, and interaction flow between components.
 
 ### 2.1 Directory Structure
@@ -22,7 +22,7 @@ secwexen-arsenal/
 
 ```bash
 tools/offensive/
-- fast_port_scanner/ (Rust)
+      └── fast_port_scanner/
 ```
 
 **Responsibilities:**
@@ -42,9 +42,9 @@ tools/offensive/
 
 ```bash
 tools/defensive/
-- bash/
-- powershell/
-- python/
+      ├── bash/
+      ├── powershell/
+      └── python/
 ```
 
 **Responsibilities:**
@@ -62,9 +62,9 @@ tools/defensive/
 
 ```bash
 tools/osint/python/
-- email_harvester.py
-- subdomain_finder.py
-- username_lookup.py
+            ├── email_harvester.py
+            ├── subdomain_finder.py
+            └── username_lookup.py
 ```
 
 **Responsibilities:**
@@ -77,8 +77,8 @@ tools/osint/python/
 
 ```bash
 tools/automation/
-- bash/
-- powershell/
+      ├── bash/
+      └── powershell/
 ```
 
 **Responsibilities:**
@@ -97,9 +97,9 @@ tools/automation/
 
 ```bash
 utils/
-- logger.py
-- file_ops.py
-- validators.py
+├── logger.py
+├── file_ops.py
+└── validators.py
 ```
 
 **Purpose:** Provide consistent helper functions across all modules.
@@ -108,10 +108,10 @@ utils/
 
 ```bash
 examples/
-- osint_demo.py
-- defensive_demo.py
-- offensive_demo.py
-- basic_usage.md
+├── osint_demo.py
+├── defensive_demo.py
+├── offensive_demo.py
+└── basic_usage.md
 ```
 
 > `basic_usage.md` contains usage instructions and demonstration examples.
@@ -120,9 +120,9 @@ examples/
 
 ```bash
 tests/
-- test_core.py
-- test_tools.py
-- test_utils.py
+├── test_core.py
+├── test_tools.py
+└── test_utils.py
 ```
 
 **Principles:** Pytest-based, deterministic, isolated
