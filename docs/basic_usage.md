@@ -3,11 +3,20 @@
 ## Setup 
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate        # Linux / macOS
-venv\Scripts\activate           # Windows
+# 1. Clone repository
+git clone https://github.com/secwexen/secwexen-arsenal.git
+cd secwexen-arsenal
 
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Install dev dependencies
+pip install -r dev-requirements.txt
 ```
 
 ### OSINT Tools
