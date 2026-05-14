@@ -1,6 +1,6 @@
 # Security Policy
 
-The Secwexen Toolkit is designed for **ethical**, **authorized**, and **educational** cybersecurity research.  
+Secwexen Arsenal is designed for **ethical**, **authorized**, and **educational** cybersecurity research.  
 All users must follow legal and responsible security practices.
 
 ## Supported Versions
