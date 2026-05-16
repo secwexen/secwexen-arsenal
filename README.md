@@ -104,7 +104,7 @@ For full usage details: [Usage](https://github.com/secwexen/secwexen-arsenal/blo
 ## Docs & Resources
 
 - [Architecture](docs/architecture.md)
-- [Basic Usage](docs/basic_usage.md)
+- [Usage](docs/usage.md)
 - [Security Policy](SECURITY.md)
 
 ## Legal Disclaimer
