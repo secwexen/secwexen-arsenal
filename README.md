@@ -99,7 +99,7 @@ python -m tools.osint.subdomain_finder example.com
 python -m tools.osint.username_lookup <username_or_target>
 ```
 
-For full usage details: [Usage](https://github.com/secwexen/secwexen-arsenal/blob/main/docs/usage.md)
+For full usage details: [Usage](docs/usage.md)
 
 ## Docs & Resources
 
