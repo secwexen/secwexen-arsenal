@@ -7,15 +7,21 @@ This document explains the internal architecture, module layout, design principl
 
 ```bash
 secwexen-arsenal/
+├── docs/
+├── examples/
+├── tests/
 ├── tools/
-│   ├── offensive/           # Rust-based fast port scanner
-│   ├── defensive/           # Python, Bash, PowerShell tools
-│   ├── osint/               # Python OSINT tools
-│   └── automation/          # Bash & PowerShell automation scripts
-├── utils/                   # Shared helper modules
-├── tests/                   # Pytest test suite
-├── examples/                # Demo scripts
-└── docs/                    # Documentation
+│   ├── automation/
+│   ├── defensive/
+│   ├── offensive/
+│   └── osint/
+├── utils/
+├── DISCLAIMER.md
+├── ETHICS.md
+├── LICENSE
+├── Makefile
+├── README.md
+└── SECURITY.md
 ```
 
 ### 2.2 Offensive Tools
