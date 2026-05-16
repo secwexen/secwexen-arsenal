@@ -58,8 +58,8 @@ secwexen-arsenal/
 ### Supported Operating Systems
 
 - Windows  
-- Linux (modern distributions)  
-- macOS (Intel and Apple Silicon)
+- Linux  
+- macOS
 
 ### Requirements
 
