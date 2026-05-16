@@ -55,6 +55,12 @@ secwexen-arsenal/
 
 ## Installation
 
+### Supported Operating Systems
+
+- Windows  
+- Linux (modern distributions)  
+- macOS (Intel and Apple Silicon)
+
 ### Requirements
 
 - Python **3.11+**  
