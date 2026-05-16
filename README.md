@@ -30,27 +30,6 @@
 | Automation | Backup-Files.ps1 | PowerShell | File backup automation |
 | Automation | Sync-Drives.ps1 | PowerShell | Drive synchronization utility |
 
-## Project Structure
-
-```
-secwexen-arsenal/
-├── docs/
-├── examples/
-├── tests/
-├── tools/
-│   ├── automation/
-│   ├── defensive/
-│   ├── offensive/
-│   └── osint/
-├── utils/
-├── DISCLAIMER.md
-├── ETHICS.md
-├── LICENSE
-├── Makefile
-├── README.md
-└── SECURITY.md
-```
-
 ## Installation
 
 ### Supported Operating Systems
