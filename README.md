@@ -89,6 +89,18 @@ pip install -r requirements.txt
 pip install -r dev-requirements.txt
 ```
 
+## Usage
+
+### OSINT Tools
+
+```bash
+python -m tools.osint.email_harvester example.com
+python -m tools.osint.subdomain_finder example.com
+python -m tools.osint.username_lookup johndoe
+```
+
+For full usage details: [Usage](https://github.com/secwexen/secwexen-arsenal/blob/main/docs/usage.md)
+
 ## Docs & Resources
 
 - [Architecture](docs/architecture.md)
