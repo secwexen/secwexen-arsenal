@@ -4,8 +4,6 @@
 
 **Secwexen Arsenal** is a comprehensive collection of offensive, defensive, and automation tools built for cybersecurity research, penetration testing, digital forensics, and threat analysis. The project brings together multi‑language utilities—written in **Python**, **Rust**, **Bash**, and **PowerShell**—designed to support real‑world workflows across Red Team, Blue Team, and OSINT operations.
 
-The goal of this repository is to provide a unified, well‑structured toolkit that enhances productivity, accelerates analysis, and enables repeatable, controlled experimentation in secure environments. Every tool is built with a focus on clarity, performance, and practical applicability.
-
 ## Features
 
 - Offensive security scripts for recon, enumeration, and exploitation  
