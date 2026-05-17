@@ -41,7 +41,6 @@
 ### Requirements
 
 - Python **3.11+**  
-- Git  
 - Rust (cargo)
 
 ## Quick Start
