@@ -140,8 +140,3 @@ tests/
 - **Maintainability** – consistent naming and folder structure
 - **Testability** – each module can be tested independently
 - **Transparency** – clear documentation and predictable behavior
-
-### 2.10 Notes
-
-- Run commands are **not included here**; see `docs/basic_usage.md` for usage instructions.
-- This Architecture Overview focuses on **modular structure and responsibilities** only.
