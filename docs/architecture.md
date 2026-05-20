@@ -117,8 +117,6 @@ examples/
 └── basic_usage.md
 ```
 
-> `basic_usage.md` contains usage instructions and demonstration examples.
-
 ### 2.8 Testing
 
 ```bash
