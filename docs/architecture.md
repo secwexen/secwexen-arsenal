@@ -1,6 +1,5 @@
 # Architecture Overview
 
-Secwexen is a modular security framework designed to provide offensive, defensive, OSINT, and automation capabilities in a clean, extensible, and maintainable structure.  
 This document explains the internal architecture, module layout, design principles, and interaction flow between components.
 
 ### 2.1 Directory Structure
