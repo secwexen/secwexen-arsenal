@@ -1,4 +1,4 @@
-# Disclaimer
+# Legal Disclaimer
 
 All tools, scripts, and resources provided in this repository are developed strictly for **educational**, **research**, and **authorized security testing** purposes.
 
