@@ -66,7 +66,7 @@ pip install -r dev-requirements.txt
 
 ### OSINT Tools
 
-```bash
+```text
 python -m tools.osint.email_harvester example.com
 python -m tools.osint.subdomain_finder example.com
 python -m tools.osint.username_lookup <username_or_target>
