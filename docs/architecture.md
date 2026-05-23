@@ -4,7 +4,7 @@ This document explains the internal architecture, module layout, design principl
 
 ### 2.1 Directory Structure
 
-```bash
+```text
 secwexen-arsenal/
 ├── docs/
 ├── examples/
@@ -25,7 +25,7 @@ secwexen-arsenal/
 
 ### 2.2 Offensive Tools
 
-```bash
+```text
 tools/offensive/
       └── fast_port_scanner/
 ```
@@ -42,7 +42,7 @@ tools/offensive/
 
 ### 2.3 Defensive Tools
 
-```bash
+```text
 tools/defensive/
       ├── bash/
       ├── powershell/
@@ -62,7 +62,7 @@ tools/defensive/
 
 ### 2.4 OSINT Tools
 
-```bash
+```text
 tools/osint/python/
             ├── email_harvester.py
             ├── subdomain_finder.py
@@ -77,7 +77,7 @@ tools/osint/python/
 
 ### 2.5 Automation Tools
 
-```bash
+```text
 tools/automation/
       ├── bash/
       └── powershell/
@@ -97,7 +97,7 @@ tools/automation/
 
 ### 2.6 Shared Utilities
 
-```bash
+```text
 utils/
 ├── logger.py
 ├── file_ops.py
@@ -108,7 +108,7 @@ utils/
 
 ### 2.7 Examples
 
-```bash
+```text
 examples/
 ├── osint_demo.py
 ├── defensive_demo.py
@@ -118,7 +118,7 @@ examples/
 
 ### 2.8 Testing
 
-```bash
+```text
 tests/
 ├── test_core.py
 ├── test_tools.py
