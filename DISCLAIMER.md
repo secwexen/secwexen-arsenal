@@ -17,6 +17,4 @@ The author (secwexen) assumes **no responsibility** for:
 - Misinterpretation of the tools  
 - Actions performed by third parties using this code  
 
-By using this repository, you agree that **you are solely responsible** for your actions and compliance with all applicable laws and regulations.
-
-Use responsibly.
+By using this repository, you agree that **you are solely responsible** for your actions and compliance with all applicable laws and regulations. Use responsibly.
