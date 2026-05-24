@@ -14,25 +14,15 @@ authors = [
 
 keywords = [
     "python",
-    "bash",
-    "rust",
-    "osint",
-    "powershell",
     "cybersecurity",
-    "bug-bounty",
+    "penetration-testing",
     "threat-hunting",
     "malware-analysis",
-    "pentest",
     "digital-forensics",
-    "ethical-hacking",
-    "network-security",
-    "threat-analysis",
-    "security-automation",
     "red-team",
-    "exploit-development",
+    "network-security",
+    "threat-intelligence",
     "vulnerability-research",
-    "automation-scripts",
-    "cli-security-tool"
 ]
 
 classifiers = [
