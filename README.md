@@ -74,12 +74,6 @@ python -m tools.osint.username_lookup <username_or_target>
 
 For full usage details: [Usage](docs/usage.md)
 
-## Docs & Resources
-
-- [Architecture](docs/architecture.md)
-- [Usage](docs/usage.md)
-- [Security Policy](SECURITY.md)
-
 ## Legal Disclaimer
 
 The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
