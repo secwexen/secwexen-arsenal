@@ -1,1 +1,0 @@
-# Secwexen Arsenal package initialization
