@@ -56,9 +56,9 @@ chmod +x tools/automation/bash/*.sh
 Run:
 
 ```bash
-./tools/automation/bash/auto_backup.sh
-./tools/automation/bash/cleanup.sh
-./tools/automation/bash/deploy_script.sh
+tools/automation/bash/auto_backup.sh
+tools/automation/bash/cleanup.sh
+tools/automation/bash/deploy_script.sh
 ```
 
 ## PowerShell Scripts (Windows)
@@ -74,13 +74,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Run scripts:
 
 ```bash
-.\tools\automation\powershell\Auto-Deploy.ps1
-.\tools\automation\powershell\Backup-Files.ps1
-.\tools\automation\powershell\Sync-Drives.ps1
+tools\automation\powershell\Auto-Deploy.ps1
+tools\automation\powershell\Backup-Files.ps1
+tools\automation\powershell\Sync-Drives.ps1
 
-.\tools\defensive\powershell\Check-DefenderStatus.ps1
-.\tools\defensive\powershell\Get-EventLogs.ps1
-.\tools\defensive\powershell\Monitor-Processes.ps1
+tools\defensive\powershell\Check-DefenderStatus.ps1
+tools\defensive\powershell\Get-EventLogs.ps1
+tools\defensive\powershell\Monitor-Processes.ps1
 ```
 
 ## Rust Offensive Tool (Fast Port Scanner)
@@ -101,7 +101,7 @@ cargo run --release
 Or run binary directly:
 
 ```bash
-./target/release/fast_port_scanner
+target/release/fast_port_scanner
 ```
 
 ## Running Tests
