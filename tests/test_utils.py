@@ -23,7 +23,6 @@ def test_write_and_read_file(tmp_path):
     read_content = read_file(str(test_file))
     assert read_content == content
 
-
 def test_read_file_not_found():
     with pytest.raises(FileNotFoundError):
         read_file("nonexistent_file.txt")
@@ -32,12 +31,10 @@ def test_valid_domain():
     assert is_valid_domain("example.com") is True
     assert is_valid_domain("invalid_domain") is False
 
-
 def test_valid_ip():
     assert is_valid_ip("192.168.1.1") is True
     assert is_valid_ip("999.999.999.999") is False
     assert is_valid_ip("abc.def.ghi.jkl") is False
-
 
 def test_valid_email():
     assert is_valid_email("test@example.com") is True
