@@ -3,7 +3,6 @@ from typing import Dict, List
 
 from utils import log_info, log_warning, log_error
 
-
 PLATFORMS: Dict[str, str] = {
     "GitHub": "https://github.com/{user}",
     "GitLab": "https://gitlab.com/{user}",
@@ -25,7 +24,6 @@ PLATFORMS: Dict[str, str] = {
     "ProductHunt": "https://www.producthunt.com/@{user}",
 }
 
-
 def _check_profile(url: str, timeout: int = 8) -> bool:
 
     try:
@@ -37,7 +35,6 @@ def _check_profile(url: str, timeout: int = 8) -> bool:
     except requests.RequestException:
         pass
     return False
-
 
 def lookup_username(username: str) -> Dict[str, str]:
 
@@ -66,7 +63,6 @@ def lookup_username(username: str) -> Dict[str, str]:
         log_info(f"[OSINT] Username lookup completed. Found on {found_count} platform(s).")
 
     return results
-
 
 if __name__ == "__main__":
     import sys
