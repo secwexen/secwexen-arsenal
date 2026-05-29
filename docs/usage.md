@@ -37,12 +37,12 @@ python -m tools.defensive.python.log_monitor
 python -m tools.defensive.python.malware_scanner
 ```
 
-### Example Demos
+### Demos
 
 ```bash
-python examples/osint_demo.py
-python examples/defensive_demo.py
-python examples/offensive_demo.py
+python demo/osint_demo.py
+python demo/defensive_demo.py
+python demo/offensive_demo.py
 ```
 
 ## Bash Scripts (Linux / macOS)
