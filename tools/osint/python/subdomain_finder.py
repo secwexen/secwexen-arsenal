@@ -51,14 +51,7 @@ def _build_subdomains(domain: str, wordlist: List[str]) -> List[str]:
 
 
 def find_subdomains(domain: str, wordlist: List[str] | None = None, http_verify: bool = True) -> dict:
-    """
-    Discover subdomains using DNS resolution and optional HTTP validation.
 
-    :param domain: Target domain (e.g., example.com)
-    :param wordlist: Custom wordlist (optional)
-    :param http_verify: Whether to send HTTP requests to verify active hosts
-    :return: Dict mapping subdomain -> {ip, http}
-    """
     domain = _normalize_domain(domain)
     log_info(f"[OSINT] Starting subdomain scan for: {domain}")
 
