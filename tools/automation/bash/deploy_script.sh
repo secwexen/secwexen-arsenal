@@ -1,7 +1,7 @@
 #!/bin/bash
 
 APP_DIR="/opt/secwexen"
-REPO_URL="https://github.com/secwexen/secwexen-toolkit.git"
+REPO_URL="https://github.com/secwexen/secwexen-arsenal.git"
 
 echo "[+] Starting deployment..."
 
