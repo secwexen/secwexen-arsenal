@@ -74,13 +74,7 @@ def _resolve_domain(domain: str) -> str | None:
 
 
 def harvest_emails(domain: str, only_domain: bool = True) -> Set[str]:
-    """
-    Harvest email addresses from common pages of a target domain.
 
-    :param domain: Target domain (e.g., 'example.com')
-    :param only_domain: If True, only return emails matching the domain
-    :return: Set of unique email addresses
-    """
     domain = _normalize_domain(domain)
     log_info(f"[OSINT] Starting email harvest for: {domain}")
 
