@@ -9,7 +9,6 @@ LOG_FILE = "/var/log/secwexen_firewall.log" if os.name != "nt" else "C:\\Secwexe
 
 
 def write_log(message: str):
-    """Write message to both console and log file."""
     try:
         with open(LOG_FILE, "a", encoding="utf-8") as f:
             f.write(message + "\n")
@@ -18,12 +17,7 @@ def write_log(message: str):
 
     log_info(message)
 
-
-# -----------------------------
-# Windows Firewall Monitoring
-# -----------------------------
 def watch_windows_firewall():
-    """Monitor Windows firewall rules and blocked connections."""
     log_info("[FIREWALL] Windows firewall watcher started.")
 
     previous_rules = set()
@@ -37,12 +31,10 @@ def watch_windows_firewall():
             )
             current_rules = set(result.splitlines())
 
-            # Detect new rules
             new_rules = current_rules - previous_rules
             for rule in new_rules:
                 write_log(f"[+] New firewall rule detected: {rule}")
 
-            # Detect removed rules
             removed_rules = previous_rules - current_rules
             for rule in removed_rules:
                 write_log(f"[-] Firewall rule removed: {rule}")
@@ -55,11 +47,7 @@ def watch_windows_firewall():
         time.sleep(5)
 
 
-# -----------------------------
-# Linux Firewall Monitoring
-# -----------------------------
 def watch_linux_firewall():
-    """Monitor Linux firewall logs for blocked connections."""
     log_info("[FIREWALL] Linux firewall watcher started.")
 
     log_paths = [
@@ -68,7 +56,6 @@ def watch_linux_firewall():
         "/var/log/syslog"
     ]
 
-    # Pick the first existing log file
     log_file = next((p for p in log_paths if os.path.isfile(p)), None)
 
     if not log_file:
@@ -83,11 +70,7 @@ def watch_linux_firewall():
                 write_log(f"[!] Firewall event: {line.strip()}")
 
 
-# -----------------------------
-# Main Entry
-# -----------------------------
 def watch_firewall():
-    """Start firewall watcher depending on OS."""
     system = platform.system().lower()
 
     if system == "windows":
