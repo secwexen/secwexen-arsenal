@@ -6,18 +6,15 @@ def test_tools_directory_exists():
     except Exception as e:
         pytest.fail(f"Failed to import tools package: {e}")
 
-
 def test_offensive_module_import():
         import tools.offensive
     except Exception as e:
         pytest.fail(f"Failed to import offensive module: {e}")
 
-
 def test_defensive_module_import():
         import tools.defensive
     except Exception as e:
         pytest.fail(f"Failed to import defensive module: {e}")
-
 
 def test_osint_module_import():
     try:
@@ -25,20 +22,17 @@ def test_osint_module_import():
     except Exception as e:
         pytest.fail(f"Failed to import osint module: {e}")
 
-
 def test_automation_module_import():
     try:
         import tools.automation
     except Exception as e:
         pytest.fail(f"Failed to import automation module: {e}")
 
-
 def test_utils_import():
     try:
         import utils
     except Exception as e:
         pytest.fail(f"Failed to import utils package: {e}")
-
 
 def test_utils_functions_exist():
     from utils import (
