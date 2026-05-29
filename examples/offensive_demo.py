@@ -9,7 +9,6 @@ def main():
     ssh_target = ("192.168.1.15", "root")
 
     log_info("[OFFENSIVE] Starting offensive demo...")
-
     log_info(f"1) Scanning ports on {target_ip}")
     scan_ports(target_ip)
     log_info(f"2) Fuzzing URL: {target_url}")
