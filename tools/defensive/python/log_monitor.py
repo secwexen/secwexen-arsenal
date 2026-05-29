@@ -23,7 +23,6 @@ SUSPICIOUS_KEYWORDS = [
 
 
 def write_log(message: str):
-    """Write message to both console and log file."""
     try:
         with open(LOG_FILE, "a", encoding="utf-8") as f:
             f.write(message + "\n")
@@ -33,11 +32,7 @@ def write_log(message: str):
     log_info(message)
 
 
-# -----------------------------
-# Linux Log Monitoring
-# -----------------------------
 def monitor_linux_logs():
-    """Monitor Linux system logs in real-time."""
     log_paths = [
         "/var/log/syslog",
         "/var/log/auth.log",
@@ -61,11 +56,7 @@ def monitor_linux_logs():
         log_error(f"Linux log monitor error: {e}")
 
 
-# -----------------------------
-# Windows Log Monitoring
-# -----------------------------
 def monitor_windows_logs():
-    """Monitor Windows event logs for suspicious events."""
     log_info("[LOG] Monitoring Windows Event Logs...")
 
     powershell_cmd = (
@@ -100,11 +91,7 @@ def monitor_windows_logs():
         time.sleep(5)
 
 
-# -----------------------------
-# Main Entry
-# -----------------------------
 def monitor_logs():
-    """Start log monitoring depending on OS."""
     system = platform.system().lower()
 
     if system == "linux":
