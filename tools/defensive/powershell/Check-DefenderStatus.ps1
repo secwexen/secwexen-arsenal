@@ -1,30 +1,10 @@
-<#
-.SYNOPSIS
-    Checks Windows Defender status and reports security health.
-
-.DESCRIPTION
-    This script retrieves Windows Defender configuration, real-time protection
-    status, last update time, threat history, and overall security health.
-    Useful for defensive monitoring and system audits.
-
-.NOTES
-    Author: secwexen
-    Script: Check-DefenderStatus.ps1
-#>
-
 Write-Host "[+] Checking Windows Defender status..." -ForegroundColor Cyan
 
-# -----------------------------
-# Validate Defender Module
-# -----------------------------
 if (-not (Get-Command Get-MpComputerStatus -ErrorAction SilentlyContinue)) {
     Write-Host "[!] Windows Defender module not found. This system may not support Defender." -ForegroundColor Red
     exit 1
 }
 
-# -----------------------------
-# Retrieve Defender Status
-# -----------------------------
 $status = Get-MpComputerStatus
 
 Write-Host ""
