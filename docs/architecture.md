@@ -7,7 +7,7 @@ This document explains the internal architecture, module layout, design principl
 ```text
 secwexen-arsenal/
 ├── docs/
-├── examples/
+├── demo/
 ├── tests/
 ├── tools/
 │   ├── automation/
