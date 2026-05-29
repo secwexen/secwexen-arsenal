@@ -1,6 +1,5 @@
 import requests
 from typing import Dict, List
-
 from utils import log_info, log_warning, log_error
 
 PLATFORMS: Dict[str, str] = {
