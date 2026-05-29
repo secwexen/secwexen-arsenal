@@ -1,9 +1,7 @@
 import socket
 import requests
 from typing import List, Set
-
 from utils import log_info, log_warning, log_error
-
 
 DEFAULT_WORDLIST = [
     "www",
@@ -22,13 +20,11 @@ DEFAULT_WORDLIST = [
     "assets",
 ]
 
-
 def _normalize_domain(domain: str) -> str:
     domain = domain.strip().lower()
     if domain.startswith("http://") or domain.startswith("https://"):
         domain = domain.split("://", 1)[1]
     return domain.rstrip("/")
-
 
 def _resolve_dns(host: str) -> str | None:
     try:
@@ -37,7 +33,6 @@ def _resolve_dns(host: str) -> str | None:
     except socket.gaierror:
         return None
 
-
 def _http_check(url: str, timeout: int = 5) -> bool:
     try:
         resp = requests.get(url, timeout=timeout, verify=True)
@@ -45,10 +40,8 @@ def _http_check(url: str, timeout: int = 5) -> bool:
     except requests.RequestException:
         return False
 
-
 def _build_subdomains(domain: str, wordlist: List[str]) -> List[str]:
     return [f"{w}.{domain}" for w in wordlist]
-
 
 def find_subdomains(domain: str, wordlist: List[str] | None = None, http_verify: bool = True) -> dict:
 
@@ -89,7 +82,6 @@ def find_subdomains(domain: str, wordlist: List[str] | None = None, http_verify:
         log_info(f"[OSINT] Subdomain scan completed. Found {len(results)} active subdomain(s).")
 
     return results
-
 
 if __name__ == "__main__":
     import sys
