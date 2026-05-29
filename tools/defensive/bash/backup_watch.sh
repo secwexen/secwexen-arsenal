@@ -1,10 +1,7 @@
-#!/bin/bash
-
 SOURCE_DIR="/opt/secwexen"
 BACKUP_DIR="/var/backups/secwexen"
 LOG_FILE="/var/log/secwexen_backup.log"
 
-# Create backup directory if missing
 mkdir -p "$BACKUP_DIR"
 
 log() {
@@ -30,13 +27,11 @@ log "[+] Starting backup watcher..."
 log "    Watching: $SOURCE_DIR"
 log "    Backup dir: $BACKUP_DIR"
 
-# Check if inotifywait exists
 if ! command -v inotifywait >/dev/null 2>&1; then
     log "[!] inotify-tools not installed. Installing..."
     apt-get update && apt-get install -y inotify-tools
 fi
 
-# Monitor directory for changes
 inotifywait -m -r -e modify,create,delete,move "$SOURCE_DIR" | while read path action file; do
     log "[~] Change detected: $action on $file"
     backup
