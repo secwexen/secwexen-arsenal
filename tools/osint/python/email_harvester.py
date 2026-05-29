@@ -4,9 +4,7 @@ from typing import Set, List
 from urllib.parse import urljoin
 
 import requests
-
 from utils import log_info, log_warning, log_error, is_valid_email
-
 
 EMAIL_REGEX = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
 DEFAULT_PATHS = [
@@ -21,13 +19,11 @@ DEFAULT_PATHS = [
     "/help",
 ]
 
-
 def _normalize_domain(domain: str) -> str:
     domain = domain.strip()
     if domain.startswith("http://") or domain.startswith("https://"):
         domain = domain.split("://", 1)[1]
     return domain.rstrip("/")
-
 
 def _build_urls(domain: str, paths: List[str]) -> List[str]:
     urls = []
@@ -39,7 +35,6 @@ def _build_urls(domain: str, paths: List[str]) -> List[str]:
 
     return urls
 
-
 def _fetch_url(url: str, timeout: int = 10) -> str | None:
     try:
         resp = requests.get(url, timeout=timeout, verify=True, allow_redirects=True)
@@ -50,18 +45,15 @@ def _fetch_url(url: str, timeout: int = 10) -> str | None:
         log_warning(f"[OSINT] Failed to fetch {url}: {e}")
     return None
 
-
 def _extract_emails_from_text(text: str) -> Set[str]:
     emails = set(EMAIL_REGEX.findall(text or ""))
     # Basic cleanup & validation
     cleaned = {email.strip().strip(".,;:") for email in emails}
     return {e for e in cleaned if is_valid_email(e)}
 
-
 def _filter_domain_emails(emails: Set[str], domain: str) -> Set[str]:
     domain = _normalize_domain(domain)
     return {e for e in emails if e.lower().endswith("@" + domain.lower())}
-
 
 def _resolve_domain(domain: str) -> str | None:
     try:
@@ -71,7 +63,6 @@ def _resolve_domain(domain: str) -> str | None:
     except socket.gaierror:
         log_warning(f"[OSINT] Could not resolve domain: {domain}")
         return None
-
 
 def harvest_emails(domain: str, only_domain: bool = True) -> Set[str]:
 
@@ -103,7 +94,6 @@ def harvest_emails(domain: str, only_domain: bool = True) -> Set[str]:
         log_info(f"[OSINT] Harvest completed. Total unique emails: {len(all_emails)}")
 
     return all_emails
-
 
 if __name__ == "__main__":
     import sys
