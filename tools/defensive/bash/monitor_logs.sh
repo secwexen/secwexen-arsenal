@@ -1,5 +1,3 @@
-#!/bin/bash
-
 LOG_FILE="/var/log/syslog"
 ALERT_LOG="/var/log/secwexen_log_monitor.log"
 
@@ -18,7 +16,6 @@ fi
 log_alert "[+] Starting log monitor..."
 log_alert "    Monitoring: $LOG_FILE"
 
-# Keywords to watch for
 KEYWORDS=(
     "failed"
     "unauthorized"
@@ -31,11 +28,9 @@ KEYWORDS=(
     "ssh"
 )
 
-# Build grep pattern
 PATTERN=$(printf "|%s" "${KEYWORDS[@]}")
 PATTERN=${PATTERN:1}
 
-# Monitor logs in real-time
 tail -Fn0 "$LOG_FILE" | while read line; do
     if echo "$line" | grep -Ei "$PATTERN" >/dev/null; then
         log_alert "[!] Suspicious event detected:"
