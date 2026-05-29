@@ -13,6 +13,5 @@ def main():
     scan_for_malware()
     log_info("[DEFENSIVE] Demo completed.")
 
-
 if __name__ == "__main__":
     main()
