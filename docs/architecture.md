@@ -112,8 +112,7 @@ utils/
 demo/
 ├── osint_demo.py
 ├── defensive_demo.py
-├── offensive_demo.py
-└── basic_usage.md
+└── offensive_demo.py
 ```
 
 ### 2.8 Testing
