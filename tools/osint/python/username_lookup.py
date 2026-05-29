@@ -4,7 +4,6 @@ from typing import Dict, List
 from utils import log_info, log_warning, log_error
 
 
-# Common platforms to check
 PLATFORMS: Dict[str, str] = {
     "GitHub": "https://github.com/{user}",
     "GitLab": "https://gitlab.com/{user}",
@@ -28,12 +27,7 @@ PLATFORMS: Dict[str, str] = {
 
 
 def _check_profile(url: str, timeout: int = 8) -> bool:
-    """
-    Check if a profile exists by sending a GET request.
 
-    :param url: Profile URL
-    :return: True if profile exists, False otherwise
-    """
     try:
         resp = requests.get(url, timeout=timeout, allow_redirects=True)
         if resp.status_code == 200:
@@ -46,12 +40,7 @@ def _check_profile(url: str, timeout: int = 8) -> bool:
 
 
 def lookup_username(username: str) -> Dict[str, str]:
-    """
-    Check username across multiple platforms.
 
-    :param username: Username to search
-    :return: Dict mapping platform -> profile URL or 'Not Found'
-    """
     username = username.strip()
     log_info(f"[OSINT] Starting username lookup for: {username}")
 
