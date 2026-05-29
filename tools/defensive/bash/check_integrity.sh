@@ -1,5 +1,3 @@
-#!/bin/bash
-
 TARGET_DIR="/opt/secwexen"
 HASH_DB="/var/secwexen/hash_db.txt"
 LOG_FILE="/var/log/secwexen_integrity.log"
@@ -20,7 +18,6 @@ log "[+] Starting integrity check..."
 log "    Target directory: $TARGET_DIR"
 log "    Hash database: $HASH_DB"
 
-# If no baseline exists, create one
 if [ ! -f "$HASH_DB" ]; then
     log "[!] No hash database found. Creating baseline..."
     generate_hashes
@@ -28,13 +25,11 @@ if [ ! -f "$HASH_DB" ]; then
     exit 0
 fi
 
-# Generate current hash list
 CURRENT_HASHES=$(mktemp)
 find "$TARGET_DIR" -type f -exec sha256sum {} \; | sort > "$CURRENT_HASHES"
 
 log "[+] Comparing current state with baseline..."
 
-# Detect modified files
 MODIFIED=$(comm -12 <(cut -d' ' -f3- "$HASH_DB") <(cut -d' ' -f3- "$CURRENT_HASHES") | while read file; do
     old_hash=$(grep " $file$" "$HASH_DB" | cut -d' ' -f1)
     new_hash=$(grep " $file$" "$CURRENT_HASHES" | cut -d' ' -f1)
@@ -43,13 +38,10 @@ MODIFIED=$(comm -12 <(cut -d' ' -f3- "$HASH_DB") <(cut -d' ' -f3- "$CURRENT_HASH
     fi
 done)
 
-# Detect new files
 NEW_FILES=$(comm -13 "$HASH_DB" "$CURRENT_HASHES" | cut -d' ' -f3-)
 
-# Detect deleted files
 DELETED_FILES=$(comm -23 "$HASH_DB" "$CURRENT_HASHES" | cut -d' ' -f3-)
 
-# Report results
 if [ -n "$MODIFIED" ]; then
     log "[!] Modified files detected:"
     echo "$MODIFIED" | while read f; do log "    ~ $f"; done
