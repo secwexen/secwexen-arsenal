@@ -106,10 +106,10 @@ utils/
 
 **Purpose:** Provide consistent helper functions across all modules.
 
-### 2.7 Examples
+### 2.7 Demos
 
 ```text
-examples/
+demo/
 ├── osint_demo.py
 ├── defensive_demo.py
 ├── offensive_demo.py
