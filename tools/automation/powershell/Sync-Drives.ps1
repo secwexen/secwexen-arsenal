@@ -1,32 +1,3 @@
-<#
-.SYNOPSIS
-    Synchronizes files between two drives or directories.
-
-.DESCRIPTION
-    This script compares a source directory with a destination directory
-    and synchronizes them using a safe and controlled process.
-    It supports:
-        - New file copy
-        - Updated file overwrite
-        - Optional deletion of removed files
-        - Logging of all operations
-
-.PARAMETER Source
-    The source directory to sync from.
-
-.PARAMETER Destination
-    The destination directory to sync to.
-
-.PARAMETER Mirror
-    If enabled, files deleted from the source will also be deleted from the destination.
-
-.PARAMETER LogFile
-    Optional log file path.
-
-.EXAMPLE
-    .\Sync-Drives.ps1 -Source "D:\Data" -Destination "E:\Backup" -Mirror $true
-#>
-
 param(
     [Parameter(Mandatory = $true)]
     [string]$Source,
@@ -39,9 +10,6 @@ param(
     [string]$LogFile = ""
 )
 
-# -----------------------------
-# Logging Function
-# -----------------------------
 function Write-Log {
     param([string]$Message)
 
@@ -55,9 +23,6 @@ function Write-Log {
     }
 }
 
-# -----------------------------
-# Validation
-# -----------------------------
 if (-not (Test-Path $Source)) {
     Write-Log "[!] Source path not found: $Source"
     exit 1
@@ -73,9 +38,6 @@ Write-Log "    Source: $Source"
 Write-Log "    Destination: $Destination"
 Write-Log "    Mirror Mode: $Mirror"
 
-# -----------------------------
-# Sync New & Updated Files
-# -----------------------------
 Write-Log "[+] Syncing new and updated files..."
 
 $sourceFiles = Get-ChildItem -Path $Source -Recurse -File
@@ -102,9 +64,6 @@ foreach ($file in $sourceFiles) {
     }
 }
 
-# -----------------------------
-# Mirror Mode: Remove Deleted Files
-# -----------------------------
 if ($Mirror) {
     Write-Log "[+] Mirror mode enabled. Checking for removed files..."
 
