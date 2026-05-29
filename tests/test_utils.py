@@ -13,14 +13,9 @@ from utils import (
     is_valid_email,
 )
 
-
-# -----------------------------
-# File Operations Tests
-# -----------------------------
-
 def test_write_and_read_file(tmp_path):
     test_file = tmp_path / "sample.txt"
-    content = "Hello Secwexen!"
+    content = "Hello World!"
 
     write_file(str(test_file), content)
     assert file_exists(str(test_file)) is True
@@ -32,11 +27,6 @@ def test_write_and_read_file(tmp_path):
 def test_read_file_not_found():
     with pytest.raises(FileNotFoundError):
         read_file("nonexistent_file.txt")
-
-
-# -----------------------------
-# Validators Tests
-# -----------------------------
 
 def test_valid_domain():
     assert is_valid_domain("example.com") is True
@@ -52,11 +42,6 @@ def test_valid_ip():
 def test_valid_email():
     assert is_valid_email("test@example.com") is True
     assert is_valid_email("invalid-email") is False
-
-
-# -----------------------------
-# Logger Tests (Output Only)
-# -----------------------------
 
 def test_logger_functions(capsys):
     log_info("info message")
