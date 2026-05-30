@@ -6,17 +6,15 @@
 
 ## Features
 
-- Offensive security scripts for recon, enumeration, and exploitation  
 - Defensive utilities for log analysis, threat hunting, and incident response  
 - OSINT automation tools for intelligence gathering  
-- Rust-based CLI tools for performance-critical tasks  
+- Python-based CLI tools for security automation and data processing  
 - Bash & PowerShell helpers for system diagnostics and workflow optimization
 
 ## Tool Index
 
 | Category | Tool | Language | Description |
 |----------|------|----------|-------------|
-| Offensive | fast_port_scanner.rs | Rust | High-speed TCP port scanner |
 | Defensive | firewall_watcher.py | Python | Firewall activity monitoring |
 | Defensive | log_monitor.py | Python | System log monitoring utility |
 | Defensive | malware_scanner.py | Python | Basic malware scanning helper |
