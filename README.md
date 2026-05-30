@@ -34,9 +34,9 @@
 
 ### Supported Operating Systems
 
-- Windows  
-- Linux  
-- macOS
+- Linux (primary)  
+- Windows (partial support, WSL recommended)  
+- macOS (partial support)
 
 ### Requirements
 
