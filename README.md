@@ -40,8 +40,12 @@
 
 ### Requirements
 
-- Python **3.11+**  
-- Rust (cargo)
+- Python 3.11+  
+- Rust (latest stable)  
+- PowerShell 7+ (Windows tools)  
+- Bash (Linux/macOS automation)  
+- Cross-platform system utilities  
+- Git (for CI/CD workflows)
 
 ## Quick Start
 
