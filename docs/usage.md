@@ -42,7 +42,6 @@ python -m tools.defensive.python.malware_scanner
 ```bash
 python demo/osint_demo.py
 python demo/defensive_demo.py
-python demo/offensive_demo.py
 ```
 
 ## Bash Scripts (Linux / macOS)
@@ -81,27 +80,6 @@ tools\automation\powershell\Sync-Drives.ps1
 tools\defensive\powershell\Check-DefenderStatus.ps1
 tools\defensive\powershell\Get-EventLogs.ps1
 tools\defensive\powershell\Monitor-Processes.ps1
-```
-
-## Rust Offensive Tool (Fast Port Scanner)
-
-### Build
-
-```bash
-cd tools/offensive/rust/fast_port_scanner
-cargo build --release
-```
-
-### Run
-
-```bash
-cargo run --release
-```
-
-Or run binary directly:
-
-```bash
-target/release/fast_port_scanner
 ```
 
 ## Running Tests
