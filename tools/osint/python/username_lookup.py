@@ -12,15 +12,7 @@ PLATFORMS: Dict[str, str] = {
     "YouTube": "https://www.youtube.com/@{user}",
     "Medium": "https://medium.com/@{user}",
     "Pinterest": "https://www.pinterest.com/{user}",
-    "Twitch": "https://www.twitch.tv/{user}",
-    "SoundCloud": "https://soundcloud.com/{user}",
-    "DeviantArt": "https://www.deviantart.com/{user}",
-    "Flickr": "https://www.flickr.com/people/{user}",
-    "Vimeo": "https://vimeo.com/{user}",
-    "Keybase": "https://keybase.io/{user}",
-    "Replit": "https://replit.com/@{user}",
     "HackerOne": "https://hackerone.com/{user}",
-    "ProductHunt": "https://www.producthunt.com/@{user}",
 }
 
 def _check_profile(url: str, timeout: int = 8) -> bool:
