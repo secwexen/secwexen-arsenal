@@ -1,4 +1,4 @@
-# Architecture Overview
+# Architecture
 
 This document explains the internal architecture, module layout, design principles, and interaction flow between components.
 
