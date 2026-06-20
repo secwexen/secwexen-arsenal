@@ -12,7 +12,6 @@ secwexen-arsenal/
 ├── tools/
 │   ├── automation/
 │   ├── defensive/
-│   ├── offensive/
 │   └── osint/
 ├── utils/
 ├── DISCLAIMER.md
@@ -23,24 +22,7 @@ secwexen-arsenal/
 └── SECURITY.md
 ```
 
-### 2.2 Offensive Tools
-
-```text
-tools/offensive/
-      └── fast_port_scanner/
-```
-
-**Responsibilities:**
-
-- Network scanning
-- Service enumeration
-
-**Design Principles:**
-
-- Stateless, minimal external dependencies
-- CLI-based, binary executable
-
-### 2.3 Defensive Tools
+### 2.2 Defensive Tools
 
 ```text
 tools/defensive/
@@ -60,7 +42,7 @@ tools/defensive/
 - Lightweight and safe read-only operations
 - Cross-platform support
 
-### 2.4 OSINT Tools
+### 2.3 OSINT Tools
 
 ```text
 tools/osint/python/
@@ -75,7 +57,7 @@ tools/osint/python/
 - Email harvesting
 - Username footprinting
 
-### 2.5 Automation Tools
+### 2.4 Automation Tools
 
 ```text
 tools/automation/
@@ -95,7 +77,7 @@ tools/automation/
 - Minimal configuration
 - Reusable workflow components
 
-### 2.6 Shared Utilities
+### 2.5 Shared Utilities
 
 ```text
 utils/
@@ -106,7 +88,7 @@ utils/
 
 **Purpose:** Provide consistent helper functions across all modules.
 
-### 2.7 Demos
+### 2.6 Demos
 
 ```text
 demo/
@@ -115,7 +97,7 @@ demo/
 └── offensive_demo.py
 ```
 
-### 2.8 Testing
+### 2.7 Testing
 
 ```text
 tests/
@@ -126,7 +108,7 @@ tests/
 
 **Principles:** Pytest-based, deterministic, isolated
 
-### 2.9 Design Principles
+### 2.8 Design Principles
 
 - **Modularity** – each tool is isolated
 - **Extensibility** – new tools can be added without modifying existing ones
