@@ -106,6 +106,5 @@ make run
 ```
 
 > [!NOTE]
-> - Offensive tools must only be used in environments where you have explicit authorization.  
 > - Some scripts may require **root / admin privileges**  
 > - Defensive tools may need access to system logs or firewall APIs
