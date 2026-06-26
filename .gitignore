@@ -36,18 +36,6 @@ pip‑cache/
 # Tox virtual environments for testing
 .tox/
 
-# === Rust ===
-# Rust build artifacts
-target/
-**/*.rlib
-**/*.rmeta
-
-# Cargo lock in workspace root
-Cargo.lock
-
-# Rust logs
-*.log
-
 # === PowerShell ===
 # PowerShell logs and temporary
 *.ps1xml
