@@ -3,15 +3,6 @@
 Secwexen Arsenal is designed for **ethical**, **authorized**, and **educational** cybersecurity research.  
 All users must follow legal and responsible security practices.
 
-## Supported Versions
-
-Security updates and fixes apply to the latest active branch:
-
-| Version | Supported |
-|---------|-----------|
-| main    | Yes       |
-| older tags | No     |
-
 ## Reporting a Vulnerability
 
 ### Private Security Reports  
