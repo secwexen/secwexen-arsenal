@@ -1,6 +1,6 @@
 # Legal Disclaimer
 
-All tools, scripts, and resources provided in this repository are developed strictly for **educational**, **research**, and **authorized security testing** purposes.
+All tools, scripts, and resources provided in this repository are developed strictly for educational, research, and authorized security testing purposes.
 
 You are allowed to use these tools only in:
 
@@ -11,7 +11,7 @@ You are allowed to use these tools only in:
 
 Any misuse of the tools — including unauthorized access, exploitation, or activities that violate local or international laws — is strictly prohibited.
 
-The author (secwexen) assumes **no responsibility** for:
+The author (secwexen) assumes no responsibility for:
 
 - Damage caused by improper or illegal use  
 - Misinterpretation of the tools  
