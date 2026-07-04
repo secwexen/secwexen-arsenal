@@ -42,8 +42,7 @@ The project brings together multi‑language utilities—written in **Python**, 
 
 - Python 3.10+  
 - PowerShell 6+ (Windows tools)  
-- Bash (Linux/macOS automation)  
-- Cross-platform system utilities
+- Bash (Linux/macOS automation)
 
 ## Quick Start
 
