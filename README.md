@@ -40,8 +40,8 @@ The project brings together multi‑language utilities—written in **Python**, 
 
 ### Requirements
 
-- Python 3.10+  
-- PowerShell 6+ (Windows tools)  
+- Python 3.11+  
+- PowerShell 7+ (Windows tools)  
 - Bash (Linux/macOS automation)
 
 ## Quick Start
