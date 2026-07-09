@@ -4,7 +4,7 @@
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/(your-username)/secwexen-arsenal.git
+git clone https://github.com/secwexen/secwexen-arsenal.git
 cd secwexen-arsenal
 
 # Create virtual environment
@@ -16,7 +16,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 
 # 4. Install dev dependencies
-pip install -r dev-requirements.txt
+pip install -r requirements-dev.txt
 ```
 
 ## Running the Tools
