@@ -1,5 +1,7 @@
 # Usage
 
+This guide explains how to use Secwexen Arsenal
+
 ## Setup 
 
 ```bash
