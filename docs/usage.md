@@ -46,7 +46,7 @@ python demo/osint_demo.py
 python demo/defensive_demo.py
 ```
 
-## Bash Scripts (Linux / macOS)
+### Bash Scripts (Linux / macOS)
 
 Make scripts executable:
 
@@ -62,7 +62,7 @@ tools/automation/bash/cleanup.sh
 tools/automation/bash/deploy_script.sh
 ```
 
-## PowerShell Scripts (Windows)
+### PowerShell Scripts (Windows)
 
 Run PowerShell **as Administrator**.
 
@@ -84,7 +84,7 @@ tools\defensive\powershell\Get-EventLogs.ps1
 tools\defensive\powershell\Monitor-Processes.ps1
 ```
 
-## Running Tests
+### Running Tests
 
 ```bash
 pytest tests/
@@ -98,7 +98,7 @@ pytest tests/test_tools.py
 pytest tests/test_utils.py
 ```
 
-## Makefile  
+### Makefile  
 
 ```bash
 make help
