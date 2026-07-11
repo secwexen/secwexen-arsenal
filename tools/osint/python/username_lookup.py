@@ -12,7 +12,7 @@ PLATFORMS: Dict[str, str] = {
     "YouTube": "https://www.youtube.com/@{user}",
     "Medium": "https://medium.com/@{user}",
     "Pinterest": "https://www.pinterest.com/{user}",
-    "HackerOne": "https://hackerone.com/{user}",
+    "HackerOne": "https://hackerone.com/{user}"
 }
 
 def _check_profile(url: str, timeout: int = 8) -> bool:
