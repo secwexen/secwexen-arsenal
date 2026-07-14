@@ -19,7 +19,8 @@ secwexen-arsenal/
 ├── LICENSE
 ├── Makefile
 ├── README.md
-└── SECURITY.md
+├── SECURITY.md
+└── pyproject.toml
 ```
 
 ### 2.2 Defensive Tools
