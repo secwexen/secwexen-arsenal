@@ -2,7 +2,7 @@
 
 This document explains the internal architecture, module layout, design principles, and interaction flow between components.
 
-### 2.1 Directory Structure
+### 1.1 Directory Structure
 
 ```text
 secwexen-arsenal/
@@ -25,7 +25,7 @@ secwexen-arsenal/
 └── requirements.txt
 ```
 
-### 2.2 Defensive Tools
+### 1.2 Defensive Tools
 
 ```text
 tools/defensive/
@@ -45,7 +45,7 @@ tools/defensive/
 - Lightweight and safe read-only operations
 - Cross-platform support
 
-### 2.3 OSINT Tools
+### 1.3 OSINT Tools
 
 ```text
 tools/osint/python/
@@ -60,7 +60,7 @@ tools/osint/python/
 - Email harvesting
 - Username footprinting
 
-### 2.4 Automation Tools
+### 1.4 Automation Tools
 
 ```text
 tools/automation/
@@ -80,7 +80,7 @@ tools/automation/
 - Minimal configuration
 - Reusable workflow components
 
-### 2.5 Shared Utilities
+### 1.5 Shared Utilities
 
 ```text
 utils/
@@ -91,7 +91,7 @@ utils/
 
 **Purpose:** Provide consistent helper functions across all modules.
 
-### 2.6 Demos
+### 1.6 Demos
 
 ```text
 demo/
@@ -100,7 +100,7 @@ demo/
 └── offensive_demo.py
 ```
 
-### 2.7 Testing
+### 1.7 Testing
 
 ```text
 tests/
@@ -111,7 +111,7 @@ tests/
 
 **Principles:** Pytest-based, deterministic, isolated
 
-### 2.8 Design Principles
+### 1.8 Design Principles
 
 - **Modularity** – each tool is isolated
 - **Extensibility** – new tools can be added without modifying existing ones
