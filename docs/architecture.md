@@ -20,7 +20,9 @@ secwexen-arsenal/
 ├── Makefile
 ├── README.md
 ├── SECURITY.md
-└── pyproject.toml
+├── pyproject.toml
+├── requirements.txt
+└── requirements-dev.txt
 ```
 
 ### 2.2 Defensive Tools
