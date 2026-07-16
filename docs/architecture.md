@@ -110,11 +110,3 @@ tests/
 ```
 
 **Principles:** Pytest-based, deterministic, isolated
-
-### 1.8 Design Principles
-
-- **Modularity** – each tool is isolated
-- **Extensibility** – new tools can be added without modifying existing ones
-- **Maintainability** – consistent naming and folder structure
-- **Testability** – each module can be tested independently
-- **Transparency** – clear documentation and predictable behavior
