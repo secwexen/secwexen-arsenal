@@ -1,4 +1,4 @@
-$LogFile = "C:\computer-name\logs\process_monitor.log"
+$LogFile = "C:\computer\logs\process_monitor.log"
 $SuspiciousNames = @("mimikatz", "meterpreter", "cobalt", "beacon", "powersploit", "keylogger")
 
 $logDir = Split-Path $LogFile
