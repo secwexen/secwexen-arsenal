@@ -4,7 +4,7 @@
 
 **Secwexen Arsenal** is a comprehensive collection of defensive security, and automation tools built for cybersecurity research, digital forensics, and threat analysis.
 
-The project brings together multi‑language utilities—written in **Python**, **Bash**, and **PowerShell**—designed to support real‑world workflows across **Blue Team**, and OSINT operations.
+The project brings together multi language utilities written in **Python**, **Bash**, and **PowerShell** designed to support real world workflows across **Blue Team**, and OSINT operations.
 
 ## Features
 
