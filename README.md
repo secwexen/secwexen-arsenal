@@ -84,7 +84,3 @@ The contents of this repository are for educational and research purposes. The r
 Copyright © 2026 secwexen. All Rights Reserved.
 
 See the [LICENSE](LICENSE) file for full details.
-
-## Security
-
-For guidance on safe usage and reporting vulnerabilities, see [SECURITY](SECURITY.md).
