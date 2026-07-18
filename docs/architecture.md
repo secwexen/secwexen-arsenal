@@ -19,7 +19,6 @@ secwexen-arsenal/
 ├── LICENSE
 ├── Makefile
 ├── README.md
-├── SECURITY.md
 ├── pyproject.toml
 ├── requirements-dev.txt
 └── requirements.txt
