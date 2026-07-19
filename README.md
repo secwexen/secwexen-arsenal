@@ -15,20 +15,20 @@ The project brings together multi language utilities written in **Python**, **Ba
 
 ## Tool Index
 
-| Category | Tool | Language | Description |
-|----------|------|----------|-------------|
-| Defensive | firewall_watcher.py | Python | Firewall activity monitoring |
-| Defensive | log_monitor.py | Python | System log monitoring utility |
-| Defensive | malware_scanner.py | Python | Basic malware scanning helper |
-| OSINT | email_harvester.py | Python | Email collection utility |
-| OSINT | subdomain_finder.py | Python | Subdomain enumeration |
-| OSINT | username_lookup.py | Python | Username footprint lookup |
-| Automation | auto_backup.sh | Bash | Automated backup workflow |
-| Automation | cleanup.sh | Bash | Cleanup and maintenance helper |
-| Automation | deploy_script.sh | Bash | Deployment automation |
-| Automation | Auto-Deploy.ps1 | PowerShell | Windows deployment helper |
-| Automation | Backup-Files.ps1 | PowerShell | File backup automation |
-| Automation | Sync-Drives.ps1 | PowerShell | Drive synchronization utility |
+| Category | Tool | Description |
+|----------|------|-------------|
+| Defensive | firewall_watcher.py | Firewall activity monitoring |
+| Defensive | log_monitor.py | System log monitoring utility |
+| Defensive | malware_scanner.py | Basic malware scanning helper |
+| OSINT | email_harvester.py | Email collection utility |
+| OSINT | subdomain_finder.py | Subdomain enumeration |
+| OSINT | username_lookup.py | Username footprint lookup |
+| Automation | auto_backup.sh | Automated backup workflow |
+| Automation | cleanup.sh | Cleanup and maintenance helper |
+| Automation | deploy_script.sh | Deployment automation |
+| Automation | Auto-Deploy.ps1 | Windows deployment helper |
+| Automation | Backup-Files.ps1 | File backup automation |
+| Automation | Sync-Drives.ps1 | Drive synchronization utility |
 
 ## Installation
 
