@@ -10,7 +10,7 @@ The project brings together multi language utilities written in **Python**, **Ba
 
 - Defensive utilities for log analysis, threat hunting, and incident response  
 - OSINT automation tools for intelligence gathering  
-- Python-based CLI tools for security automation and data processing  
+- Python based CLI tools for security automation and data processing  
 - Bash & PowerShell helpers for system diagnostics and workflow optimization
 
 ## Tool Index
