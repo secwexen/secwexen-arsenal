@@ -65,7 +65,7 @@ pip install -r requirements-dev.txt
 
 ## Usage
 
-### OSINT Tools
+### OSINT Tool
 
 ```text
 python -m tools.osint.email_harvester example.com
