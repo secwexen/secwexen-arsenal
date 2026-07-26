@@ -48,7 +48,7 @@ The project brings together multi language utilities written in **Python**, **Ba
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/(your-username)/secwexen-arsenal.git
+git clone https://github.com/secwexen/secwexen-arsenal.git
 cd secwexen-arsenal
 
 # Create virtual environment
