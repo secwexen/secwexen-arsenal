@@ -2,7 +2,7 @@
 
 This document explains the internal architecture, module layout, design principles, and interaction flow between components.
 
-### 1.1 Directory Structure
+## Directory Structure
 
 ```text
 secwexen-arsenal/
@@ -24,7 +24,7 @@ secwexen-arsenal/
 └── requirements.txt
 ```
 
-### 1.2 Defensive Tools
+## Defensive Tools
 
 ```text
 tools/defensive/
@@ -44,7 +44,7 @@ tools/defensive/
 - Lightweight and safe read-only operations
 - Cross-platform support
 
-### 1.3 OSINT Tools
+## OSINT Tools
 
 ```text
 tools/osint/python/
@@ -59,7 +59,7 @@ tools/osint/python/
 - Email harvesting
 - Username footprinting
 
-### 1.4 Automation Tools
+## Automation Tools
 
 ```text
 tools/automation/
@@ -90,7 +90,7 @@ utils/
 
 **Purpose:** Provide consistent helper functions across all modules.
 
-### 1.6 Demos
+## Demos
 
 ```text
 demo/
@@ -99,7 +99,7 @@ demo/
 └── offensive_demo.py
 ```
 
-### 1.7 Testing
+## Testing
 
 ```text
 tests/
