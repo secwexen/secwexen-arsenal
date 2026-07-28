@@ -10,21 +10,6 @@ install: venv
 	$(PIP) install -r requirements.txt
 	@echo "Dependencies installed."
 
-lint:
-	$(PIP) install flake8 >/dev/null 2>&1 || true
-	flake8 tools/ utils/ src/ || true
-	@echo "Linting completed."
-
-format:
-	$(PIP) install black >/dev/null 2>&1 || true
-	black tools/ utils/ src/
-	@echo "Code formatted."
-
-test:
-	$(PIP) install pytest >/dev/null 2>&1
-	pytest -q
-	@echo "Tests executed."
-
 clean:
 ifeq ($(OS),Windows_NT)
 	powershell -Command "Get-ChildItem -Recurse -Directory -Filter '__pycache__' | Remove-Item -Recurse -Force"
