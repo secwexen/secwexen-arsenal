@@ -2,14 +2,6 @@ PYTHON := python3
 PIP := pip3
 VENV := .venv
 
-ifeq ($(OS),Windows_NT)
-    ACTIVATE := $(VENV)\Scripts\activate
-    PIP := $(VENV)\Scripts\pip.exe
-else
-    ACTIVATE := . $(VENV)/bin/activate
-    PIP := $(VENV)/bin/pip
-endif
-
 venv:
 	$(PYTHON) -m venv $(VENV)
 	@echo "Virtual environment created."
