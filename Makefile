@@ -20,8 +20,5 @@ else
 endif
 	@echo "Cleanup completed."
 
-setup: venv install
-	@echo "Environment ready."
-
 all: setup lint test
 	@echo "All tasks completed."
