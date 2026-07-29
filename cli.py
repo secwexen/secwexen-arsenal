@@ -1,3 +1,5 @@
+# Secwexen Arsenal CLI
+
 def print_banner():
     banner = r"""
    _____                              ___                                 _ 
@@ -6,7 +8,6 @@ def print_banner():
  ___/ /  __/ /__ | |/ |/ /  __/>  </ ___ |/ /  (__  )  __/ / / / /_/ / /   
 /____/\___/\___/ |__/|__/\___/_/|_/_/  |_/_/  /____/\___/_/ /_/\__,_/_/    
                                                                            
-                [ Secwexen Arsenal CLI ]
 """
     print(banner)
 
