@@ -79,7 +79,7 @@ tools/automation/
 - Minimal configuration
 - Reusable workflow components
 
-### 1.5 Shared Utilities
+## Shared Utilities
 
 ```text
 utils/
