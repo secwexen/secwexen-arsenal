@@ -83,4 +83,5 @@ The contents of this repository are for educational and research purposes. The r
 
 Copyright © 2026 secwexen.
 
+This project is licensed under the MIT License.
 See the [LICENSE](LICENSE) file for full details.
