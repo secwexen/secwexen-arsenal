@@ -81,6 +81,6 @@ The contents of this repository are for educational and research purposes. The r
 
 ## License
 
-Copyright © 2026 secwexen. All Rights Reserved.
+Copyright © 2026 secwexen.
 
 See the [LICENSE](LICENSE) file for full details.
