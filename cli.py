@@ -9,7 +9,6 @@ def print_banner():
 
                          A R S E N A L
               Personal cybersecurity toolkit repository
-
     """
     print(banner)
 
