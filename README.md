@@ -73,7 +73,7 @@ python -m tools.osint.subdomain_finder example.com
 python -m tools.osint.username_lookup <username_or_target>
 ```
 
-For full usage details: [Usage](docs/usage.md)
+For full details, refer to the [Usage](docs/usage.md) file.
 
 ## Legal Disclaimer
 
