@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo "=== Secwexen Arsenal Demo ==="
 
 echo "[1] Checking project..."
