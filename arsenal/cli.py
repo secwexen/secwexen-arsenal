@@ -1,10 +1,11 @@
 import os
+from colorama import Fore, init
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def print_banner():
-    banner = r"""
+    banner = Fore.CYAN + r"""
    ███████╗███████╗ ██████╗██╗    ██╗███████╗██╗  ██╗███████╗███╗   ██╗
    ██╔════╝██╔════╝██╔════╝██║    ██║██╔════╝╚██╗██╔╝██╔════╝████╗  ██║
    ███████╗█████╗  ██║     ██║ █╗ ██║█████╗   ╚███╔╝ █████╗  ██╔██╗ ██║
@@ -13,7 +14,8 @@ def print_banner():
    ╚══════╝╚══════╝ ╚═════╝ ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝
                              A R S E N A L
                 Personal cybersecurity toolkit repository
-    """
+    """ + Fore.RESET
+    
     print(banner)
 
 def main():
