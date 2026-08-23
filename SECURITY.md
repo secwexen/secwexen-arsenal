@@ -10,6 +10,3 @@ If you discover a security vulnerability in Secwexen Arsenal, please report it r
 Preferred method:
 
 - Open a [private GitHub Security Advisory](https://github.com/secwexen/secwexen-arsenal/security/advisories/new).
-
-> [!IMPORTANT]
-> Do **not disclose security issues publicly** until a fix or mitigation has been released.
