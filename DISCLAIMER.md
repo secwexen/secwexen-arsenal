@@ -15,7 +15,7 @@ You are allowed to use these tools only in:
 
 Any misuse of the tools — including unauthorized access, exploitation, or activities that violate local or international laws — is strictly prohibited.
 
-The author [secwexen](https://github.com/secwexen) assumes no responsibility for:
+The author [Secwexen](https://github.com/secwexen) assumes no responsibility for:
 
 - Damage caused by improper or illegal use  
 - Misinterpretation of the tools  
