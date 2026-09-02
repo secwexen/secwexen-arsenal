@@ -73,5 +73,5 @@ clean-venv: clean # Hard reset the project by deleting the virtual environment
 	$(CLEAN_VENV_CMD)
 	@echo "Project reset complete."
 
-all: install-dev format lint test ## Run full CI/CD pipeline locally (Setup, Format, Lint, Test)
+all: install-dev format lint test # Run full CI/CD pipeline locally (Setup, Format, Lint, Test)
 	@echo "All pre-flight checks passed successfully."
