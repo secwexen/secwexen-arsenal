@@ -42,33 +42,33 @@ $(VENV_BIN)/activate:
 	$(VENV_PIP) install --upgrade pip setuptools wheel
 	@touch $(VENV_BIN)/activate
 
-install: venv ## Install production dependencies from requirements.txt
+install: venv # Install production dependencies from requirements.txt
 	@echo "Installing production dependencies..."
 	$(VENV_PIP) install -r requirements.txt
 
-install-dev: install ## Install development/test dependencies from requirements-dev.txt
+install-dev: install # Install development/test dependencies from requirements-dev.txt
 	@echo "Installing development dependencies..."
 	$(VENV_PIP) install -r requirements-dev.txt
 
-format: venv ## Auto-format Python code (assumes black and isort are in dev requirements)
+format: venv # Auto-format Python code (assumes black and isort are in dev requirements)
 	@echo "Formatting Python code..."
 	$(VENV_BIN)/black tools/
 	$(VENV_BIN)/isort tools/
 
-lint: venv ## Run static code analysis (assumes flake8 or ruff is in dev requirements)
+lint: venv # Run static code analysis (assumes flake8 or ruff is in dev requirements)
 	@echo "Running linter..."
 	$(VENV_BIN)/flake8 tools/
 
-test: venv ## Run unit tests with coverage (assumes pytest is in dev requirements)
+test: venv # Run unit tests with coverage (assumes pytest is in dev requirements)
 	@echo "Running tests..."
 	$(VENV_BIN)/pytest -v --cov=tools --cov-report=term-missing
 
-clean: ## Remove cached files, pycache, and build artifacts
+clean: # Remove cached files, pycache, and build artifacts
 	@echo "Cleaning cache and build artifacts..."
 	$(CLEAN_CMD)
 	@echo "Cleanup completed."
 
-clean-venv: clean ## Hard reset the project by deleting the virtual environment
+clean-venv: clean # Hard reset the project by deleting the virtual environment
 	@echo "Removing virtual environment..."
 	$(CLEAN_VENV_CMD)
 	@echo "Project reset complete."
