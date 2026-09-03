@@ -51,7 +51,7 @@ The project brings together multi language utilities written in **Python**, **Ba
 git clone https://github.com/secwexen/secwexen-arsenal.git
 cd secwexen-arsenal
 
-# Create virtual environment
+# 2. Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
