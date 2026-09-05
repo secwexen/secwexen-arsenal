@@ -48,7 +48,8 @@ dependencies = [
     "tqdm"
 ]
 
-dev_dependencies = [
+[project.optional-dependencies]
+dev = [
     "pytest",
     "pytest-cov",
     "black",
