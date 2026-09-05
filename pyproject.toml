@@ -16,11 +16,9 @@ authors = [
 keywords = [
     "python",
     "cybersecurity",
-    "security-research",
-    "cybersecurity-toolkit",
+    "cybersecurity-tools",
     "defensive-security",
     "osint",
-    "blue-team",
 ]
 
 classifiers = [
