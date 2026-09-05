@@ -61,19 +61,6 @@ dev = [
     "pre-commit"
 ]
 
-[project.optional-dependencies]
-dev = [
-    "pytest",
-    "pytest-cov",
-    "black",
-    "isort",
-    "flake8",
-    "pylint",
-    "mypy",
-    "bandit",
-    "pre-commit"
-]
-
 [project.urls]
 Homepage = "https://secwexen.github.io/"
 Repository = "https://github.com/secwexen/secwexen-arsenal"
