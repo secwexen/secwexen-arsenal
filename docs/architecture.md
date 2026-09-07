@@ -15,7 +15,6 @@ secwexen-arsenal/
 │   └── osint/
 ├── utils/
 ├── DISCLAIMER.md
-├── ETHICS.md
 ├── LICENSE
 ├── Makefile
 ├── README.md
