@@ -68,18 +68,18 @@ secwexen-arsenal
 
 ```text
 tools/defensive/
-      │   │   ├── bash
-      │   │   │   ├── backup_watch.sh
-      │   │   │   ├── check_integrity.sh
-      │   │   │   └── monitor_logs.sh
-      │   │   ├── powershell
-      │   │   │   ├── Check-DefenderStatus.ps1
-      │   │   │   ├── Get-EventLogs.ps1
-      │   │   │   └── Monitor-Processes.ps1
-      │   │   └── python
-      │   │       ├── firewall_watcher.py
-      │   │       ├── log_monitor.py
-      │   │       └── malware_scanner.py
+      ├── bash
+      │   ├── backup_watch.sh
+      │   ├── check_integrity.sh
+      │   └── monitor_logs.sh
+      ├── powershell
+      │   ├── Check-DefenderStatus.ps1
+      │   ├── Get-EventLogs.ps1
+      │   └── Monitor-Processes.ps1
+      └── python
+          ├── firewall_watcher.py
+          ├── log_monitor.py
+          └── malware_scanner.py
 ```
 
 **Responsibilities:**
@@ -112,14 +112,14 @@ tools/osint/python/
 
 ```text
 tools/automation/
-      │   │   ├── bash
-      │   │   │   ├── auto_backup.sh
-      │   │   │   ├── cleanup.sh
-      │   │   │   └── deploy_script.sh
-      │   │   └── powershell
-      │   │       ├── Auto-Deploy.ps1
-      │   │       ├── Backup-Files.ps1
-      │   │       └── Sync-Drives.ps1
+      ├── bash
+      │   ├── auto_backup.sh
+      │   ├── cleanup.sh
+      │   └── deploy_script.sh
+      └── powershell
+          ├── Auto-Deploy.ps1
+          ├── Backup-Files.ps1
+          └── Sync-Drives.ps1
 ```
 
 **Responsibilities:**
