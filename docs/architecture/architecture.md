@@ -82,17 +82,6 @@ tools/defensive/
           └── malware_scanner.py
 ```
 
-**Responsibilities:**
-
-- Log monitoring
-- Firewall tracking
-- Malware scanning
-
-**Design Principles:**
-
-- Lightweight and safe read-only operations
-- Cross-platform support
-
 ## OSINT Tools
 
 ```text
@@ -101,12 +90,6 @@ tools/osint/python/
             ├── subdomain_finder.py
             └── username_lookup.py
 ```
-
-**Responsibilities:**
-
-- Subdomain enumeration
-- Email harvesting
-- Username footprinting
 
 ## Automation Tools
 
@@ -122,18 +105,6 @@ tools/automation/
           └── Sync-Drives.ps1
 ```
 
-**Responsibilities:**
-
-- Backup
-- Deployment
-- Cleanup
-
-**Design Principles:**
-
-- Shell-first design
-- Minimal configuration
-- Reusable workflow components
-
 ## Shared Utilities
 
 ```text
@@ -142,8 +113,6 @@ utils/
 ├── file_ops.py
 └── validators.py
 ```
-
-**Purpose:** Provide consistent helper functions across all modules.
 
 ## Demos
 
@@ -162,5 +131,3 @@ tests/
 ├── test_tools.py
 └── test_utils.py
 ```
-
-**Principles:** Pytest-based, deterministic, isolated
