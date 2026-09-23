@@ -43,6 +43,7 @@ The project brings together multi language utilities written in **Python**, **Ba
 - Python 3.11+
 - PowerShell 7+  
 - Bash
+- Git
 
 ## Quick Start
 
