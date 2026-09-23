@@ -1,4 +1,4 @@
-echo "=== Secwexen Arsenal Demo ==="
+echo "=== Starting Bash Demo ==="
 
 echo "[1] Checking project..."
 [ -d "tools" ] && echo "Tools found."
