@@ -80,6 +80,8 @@ For full details, refer to the [Usage](docs/usage.md) file.
 
 The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
 
+For more information, see the [DISCLAIMER](DISCLAIMER.md).
+
 ## License
 
 Copyright © 2026 secwexen.
