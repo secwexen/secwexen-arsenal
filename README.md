@@ -6,6 +6,12 @@
 
 The project brings together multi language utilities written in **Python**, **Bash**, and **PowerShell** designed to support real world workflows across **OSINT Operations**, **Security Monitoring**, and **Security Automation**.
 
+## Legal Disclaimer
+
+The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
+
+For more information, see the [DISCLAIMER](DISCLAIMER.md).
+
 ## Features
 
 - Defensive utilities for log analysis, threat hunting, and incident response  
@@ -75,12 +81,6 @@ python -m tools.osint.username_lookup <username_or_target>
 ```
 
 For full details, refer to the [Usage](docs/usage.md) file.
-
-## Legal Disclaimer
-
-The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
-
-For more information, see the [DISCLAIMER](DISCLAIMER.md).
 
 ## License
 
