@@ -86,3 +86,9 @@ Copyright © 2026 secwexen.
 
 This project is licensed under the MIT License.  
 See the [LICENSE](LICENSE) file for full details.
+
+## Security
+
+If you discover a security vulnerability, please follow our responsible disclosure process.
+
+See [SECURITY](SECURITY.md) for detailed information.
