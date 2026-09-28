@@ -30,3 +30,7 @@ The author do not endorse, encourage, or support unauthorized access, exploitati
 By using this repository, you acknowledge that you are solely responsible for your actions and for ensuring that your use of the software complies with all applicable laws, regulations, and authorization requirements.
 
 Use responsibly. Test only systems you are authorized to test.
+
+## Disclaimer of Warranty
+
+This repository is provided **“as is”** and **"as available"**, without warranty of any kind, express or implied.
