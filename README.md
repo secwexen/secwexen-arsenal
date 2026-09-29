@@ -41,7 +41,7 @@ For more information, see the [DISCLAIMER](DISCLAIMER.md).
 ### Supported Operating Systems
 
 - Linux (primary)  
-- Windows (partial support, WSL recommended)  
+- Windows (partial support, WSL2 recommended)  
 - macOS (partial support)
 
 ### Requirements
