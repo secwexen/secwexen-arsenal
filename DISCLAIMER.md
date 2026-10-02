@@ -33,4 +33,4 @@ Use responsibly. Test only systems you are authorized to test.
 
 ## Disclaimer of Warranty
 
-This repository is provided **“as is”** and **"as available"**, without warranty of any kind, express or implied.
+This repository is provided "as is" and "as available", without warranty of any kind, express or implied.
