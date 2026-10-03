@@ -14,34 +14,34 @@ For more information, see the [DISCLAIMER](DISCLAIMER.md).
 
 ## Features
 
-- Defensive utilities for log analysis, threat hunting, and incident response  
-- OSINT automation tools for intelligence gathering  
-- Python based tools for security automation and data processing  
+- Defensive utilities for log analysis, threat hunting, and incident response
+- OSINT automation tools for intelligence gathering
+- Python based tools for security automation and data processing
 - Bash & PowerShell helpers for system diagnostics and workflow optimization
 
 ## Tool Index
 
-| Category | Tool | Description |
-|----------|------|-------------|
-| Defensive | firewall_watcher.py | Firewall activity monitoring |
-| Defensive | log_monitor.py | System log monitoring utility |
-| Defensive | malware_scanner.py | Basic malware scanning helper |
-| OSINT | email_harvester.py | Email collection utility |
-| OSINT | subdomain_finder.py | Subdomain enumeration |
-| OSINT | username_lookup.py | Username footprint lookup |
-| Automation | auto_backup.sh | Automated backup workflow |
-| Automation | cleanup.sh | Cleanup and maintenance helper |
-| Automation | deploy_script.sh | Deployment automation |
-| Automation | Auto-Deploy.ps1 | Windows deployment helper |
-| Automation | Backup-Files.ps1 | File backup automation |
-| Automation | Sync-Drives.ps1 | Drive synchronization utility |
+| Category   | Tool                | Description                    |
+| ---------- | ------------------- | ------------------------------ |
+| Defensive  | firewall_watcher.py | Firewall activity monitoring   |
+| Defensive  | log_monitor.py      | System log monitoring utility  |
+| Defensive  | malware_scanner.py  | Basic malware scanning helper  |
+| OSINT      | email_harvester.py  | Email collection utility       |
+| OSINT      | subdomain_finder.py | Subdomain enumeration          |
+| OSINT      | username_lookup.py  | Username footprint lookup      |
+| Automation | auto_backup.sh      | Automated backup workflow      |
+| Automation | cleanup.sh          | Cleanup and maintenance helper |
+| Automation | deploy_script.sh    | Deployment automation          |
+| Automation | Auto-Deploy.ps1     | Windows deployment helper      |
+| Automation | Backup-Files.ps1    | File backup automation         |
+| Automation | Sync-Drives.ps1     | Drive synchronization utility  |
 
 ## Installation
 
 ### Supported Operating Systems
 
-- Linux (primary)  
-- Windows (partial support, WSL2 recommended)  
+- Linux (primary)
+- Windows (partial support, WSL2 recommended)
 - macOS (partial support)
 
 ### Requirements
@@ -86,7 +86,7 @@ For full details, refer to the [Usage](docs/usage.md) file.
 
 Copyright © 2026 secwexen.
 
-This project is licensed under the MIT License.  
+This project is licensed under the MIT License.
 See the [LICENSE](LICENSE) file for full details.
 
 ## Security
