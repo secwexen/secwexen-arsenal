@@ -25,7 +25,7 @@ pip install -r requirements-dev.txt
 
 ### OSINT Tools
 
-```bash
+```python
 python -m tools/osint/python/email_harvester.py example.com
 python -m tools/osint/python/subdomain_finder.py example.com
 python -m tools/osint/python/username_lookup.py <username_or_target>
@@ -33,7 +33,7 @@ python -m tools/osint/python/username_lookup.py <username_or_target>
 
 ### Defensive Tools
 
-```bash
+```python
 python -m tools.defensive.python.firewall_watcher
 python -m tools.defensive.python.log_monitor
 python -m tools.defensive.python.malware_scanner
@@ -41,7 +41,7 @@ python -m tools.defensive.python.malware_scanner
 
 ### Demos
 
-```bash
+```python
 python demo/osint_demo.py
 python demo/defensive_demo.py
 ```
@@ -50,13 +50,13 @@ python demo/defensive_demo.py
 
 Make scripts executable:
 
-```bash
+```shell
 chmod +x tools/automation/bash/*.sh
 ```
 
 Run:
 
-```bash
+```shell
 tools/automation/bash/auto_backup.sh
 tools/automation/bash/cleanup.sh
 tools/automation/bash/deploy_script.sh
@@ -74,7 +74,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Run scripts:
 
-```bash
+```powershell
 tools\automation\powershell\Auto-Deploy.ps1
 tools\automation\powershell\Backup-Files.ps1
 tools\automation\powershell\Sync-Drives.ps1
@@ -86,13 +86,13 @@ tools\defensive\powershell\Monitor-Processes.ps1
 
 ### Running Tests
 
-```bash
+```python
 pytest tests/
 ```
 
 Or individually:
 
-```bash
+```python
 pytest tests/test_core.py
 pytest tests/test_tools.py
 pytest tests/test_utils.py
