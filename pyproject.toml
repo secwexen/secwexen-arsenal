@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "secwexen-arsenal"
 description = "Personal a cybersecurity toolkit featuring defensive security and blue team tools built with Python, Bash, Shell, and PowerShell."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 license = { file = "LICENSE" }
 
 authors = [
@@ -30,7 +30,7 @@ classifiers = [
   "Intended Audience :: Information Technology",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.13",
   "Operating System :: OS Independent",
   "Topic :: Security"
 ]
