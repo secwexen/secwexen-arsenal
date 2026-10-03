@@ -46,7 +46,7 @@ For more information, see the [DISCLAIMER](DISCLAIMER.md).
 
 ### Requirements
 
-- Python 3.11+
+- Python 3.13+
 - PowerShell 7+  
 - Bash
 - Git
