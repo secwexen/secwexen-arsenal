@@ -106,7 +106,3 @@ make install
 make test
 make run
 ```
-
-> [!NOTE]
-> - Some scripts may require **root / admin privileges**  
-> - Defensive tools may need access to system logs or firewall APIs
