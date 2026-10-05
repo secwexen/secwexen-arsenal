@@ -6,11 +6,13 @@
 
 The project brings together multi-language security utilities written in **Python, Bash, Shell, and PowerShell**, designed to support practical workflows in **security research, system monitoring, OSINT operations, security analysis, and automation**.
 
-## Legal Disclaimer
+## Legal & Authorized Use
 
-The contents of this repository are for educational and research purposes. The repository owner assumes no responsibility for misuse or legal consequences.
+This Secwexen Arsenal repository is intended strictly for educational, research, and authorized security testing purposes only. Users are solely responsible for ensuring their activities comply with all applicable laws and regulations.
 
-For more information, see the [DISCLAIMER](DISCLAIMER.md).
+The maintainers assume no liability for misuse or any damages resulting from the use of this project.
+
+See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 
 ## Features
 
