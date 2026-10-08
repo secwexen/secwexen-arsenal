@@ -1,5 +1,6 @@
 # Secwexen Arsenal
 
+[![CI](https://github.com/secwexen/secwexen-arsenal/actions/workflows/ci.yml/badge.svg)](https://github.com/secwexen/secwexen-arsenal/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
 
 ## About
