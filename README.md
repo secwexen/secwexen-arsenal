@@ -45,9 +45,9 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 
 ### Supported Operating Systems
 
-- Linux (primary)
-- Windows (partial support, WSL2 recommended)
-- macOS (partial support)
+- **Linux** — Recommended for development, testing, and deployment
+- **Windows** — Supported for development and testing with Visual Studio Code and WSL2
+- **macOS** — Supported for local development and testing
 
 ### Requirements
 
