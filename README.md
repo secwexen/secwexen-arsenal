@@ -20,8 +20,8 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 
 - Defensive utilities for log analysis, threat hunting, and incident response
 - OSINT automation tools for intelligence gathering
-- Python based tools for security automation and data processing
-- Bash & PowerShell helpers for system diagnostics and workflow optimization
+- Python-based tools for security automation and data processing
+- Bash and PowerShell helpers for system diagnostics and workflow optimization
 
 ## Tool Index
 
