@@ -52,7 +52,8 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 ### Requirements
 
 - Python 3.13+
-- PowerShell 7+  
+- PowerShell 7+
+- Shell
 - Bash
 - Git
 
