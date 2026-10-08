@@ -1,5 +1,7 @@
 # Secwexen Arsenal
 
+[![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)](https://github.com/secwexen/secwexen-arsenal/blob/main/LICENSE)
+
 ## About
 
 **Secwexen Arsenal** is a personal **cybersecurity toolkit** focused on **defensive security, blue team, OSINT, security monitoring, threat hunting, incident response, and security automation**.
@@ -70,6 +72,15 @@ pip install -r requirements.txt
 
 # 4. Install development dependencies
 pip install -r requirements-dev.txt
+```
+
+### 2. Run Tests
+
+The project includes automated tests.
+
+```python
+# Run the full pytest suite
+python -m pytest -v
 ```
 
 ## Usage
