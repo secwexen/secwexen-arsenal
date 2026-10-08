@@ -56,6 +56,7 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 - Shell
 - Bash
 - Git
+- pytest
 
 ## Quick Start
 
