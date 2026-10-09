@@ -91,9 +91,9 @@ python -m pytest -v
 ### OSINT Tool
 
 ```python
-python -m tools.osint.email_harvester example.com
-python -m tools.osint.subdomain_finder example.com
-python -m tools.osint.username_lookup <username_or_target>
+python -m tools.osint.python.email_harvester example.com
+python -m tools.osint.python.subdomain_finder example.com
+python -m tools.osint.python.username_lookup <username_or_target>
 ```
 
 For full details, refer to the [Usage](docs/usage.md) file.
