@@ -67,6 +67,8 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 
 ## Quick Start
 
+## 1. Clone & Setup
+
 ```bash
 # 1. Clone repository
 git clone https://github.com/secwexen/secwexen-arsenal.git
@@ -84,7 +86,7 @@ pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
 
-### 2. Run Tests
+## 2. Run Tests
 
 The project includes automated tests.
 
@@ -93,7 +95,7 @@ The project includes automated tests.
 python -m pytest -v
 ```
 
-For full details, refer to the [Quick Start](docs/getting-started/quick-start.md) file.
+For full details, refer to the [Quick Start](docs/getting-started/quickstart.md) file.
 
 ## Usage
 
