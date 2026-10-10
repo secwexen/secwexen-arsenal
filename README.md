@@ -65,6 +65,8 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 - Git
 - Pytest
 
+For full details, refer to the [Installation Guide](docs/getting-started/installation.md) file.
+
 ## Quick Start
 
 ### 1. Clone & Setup
@@ -112,7 +114,6 @@ For full details, refer to the [Usage](docs/usage.md) file.
 ## Documentation
 
 - [Architecture](docs/architecture/architecture.md)
-- [Usage](docs/guides/usage.md)
 
 ## License
 
