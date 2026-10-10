@@ -67,7 +67,7 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 
 ## Quick Start
 
-## 1. Clone & Setup
+### 1. Clone & Setup
 
 ```bash
 # 1. Clone repository
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
 
-## 2. Run Tests
+### 2. Run Tests
 
 The project includes automated tests.
 
