@@ -1,0 +1,70 @@
+repos:
+  # --------------------------------------------------
+  # General file and repository checks
+  # --------------------------------------------------
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      # Remove unnecessary trailing whitespace.
+      # Preserve Markdown hard line breaks.
+      - id: trailing-whitespace
+        args:
+          - --markdown-linebreak-ext=md
+
+      # Ensure files end with a newline.
+      - id: end-of-file-fixer
+
+      # Validate YAML files.
+      - id: check-yaml
+
+      # Validate TOML files.
+      - id: check-toml
+
+      # Validate JSON files.
+      - id: check-json
+
+      # Detect unresolved merge conflicts.
+      - id: check-merge-conflict
+
+      # Detect case-sensitive filename conflicts.
+      - id: check-case-conflict
+
+      # Prevent unnecessarily large files from being committed.
+      - id: check-added-large-files
+        args:
+          - --maxkb=1024
+
+      # Detect private keys accidentally added to the repository.
+      - id: detect-private-key
+
+  # --------------------------------------------------
+  # Python linting
+  # --------------------------------------------------
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.8
+    hooks:
+      # Python linting.
+      - id: ruff
+        args:
+          - --target-version=py313
+
+      # Check Python formatting without modifying files.
+      - id: ruff-format
+        args:
+          - --check
+
+  # --------------------------------------------------
+  # Shell script analysis
+  # --------------------------------------------------
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1
+    hooks:
+      - id: shellcheck
+
+  # --------------------------------------------------
+  # Secret detection
+  # --------------------------------------------------
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
