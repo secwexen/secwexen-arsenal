@@ -1,0 +1,76 @@
+# Automatic text/binary detection
+* text=auto
+
+# Editor and Git configuration
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.dockerignore text eol=lf
+.pre-commit-config.yaml text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.rst text eol=lf
+*.txt text eol=lf
+
+# Python
+*.py text eol=lf
+*.pyi text eol=lf
+*.pyw text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# PowerShell
+*.ps1 text eol=lf
+*.psm1 text eol=lf
+*.psd1 text eol=lf
+
+# Configuration files
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+*.xml text eol=lf
+
+# Build and automation
+Makefile text eol=lf
+Dockerfile text eol=lf
+*.mk text eol=lf
+
+# GitHub Actions
+.github/** text eol=lf
+
+# Windows batch scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.bmp binary
+
+# Documents and archives
+*.pdf binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.tar binary
+*.rar binary
+
+# Compiled and executable binaries
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.bin binary
+*.class binary
