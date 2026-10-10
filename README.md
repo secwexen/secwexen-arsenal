@@ -93,6 +93,8 @@ The project includes automated tests.
 python -m pytest -v
 ```
 
+For full details, refer to the [Quick Start](docs/getting-started/quick-start.md) file.
+
 ## Usage
 
 ### OSINT Tool
@@ -104,6 +106,11 @@ python -m tools.osint.python.username_lookup <username_or_target>
 ```
 
 For full details, refer to the [Usage](docs/usage.md) file.
+
+## Documentation
+
+- [Architecture](docs/architecture/architecture.md)
+- [Usage](docs/guides/usage.md)
 
 ## License
 
