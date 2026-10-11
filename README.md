@@ -62,6 +62,7 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 - PowerShell 7+
 - Shell
 - Bash
+- Make
 - Git
 - Pytest
 
