@@ -9,6 +9,8 @@
 
 The project brings together multi-language security utilities written in **Python, Bash, Shell, and PowerShell**, designed to support practical workflows in **security research, system monitoring, and security analysis**.
 
+Secwexen Arsenal provides modular and practical utilities designed for real-world defensive workflows.
+
 ## Legal & Authorized Use
 
 This Secwexen Arsenal repository is intended strictly for educational, research, and authorized security testing purposes only. Users are solely responsible for ensuring their activities comply with all applicable laws and regulations.
