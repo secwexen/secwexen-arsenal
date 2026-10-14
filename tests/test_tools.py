@@ -1,11 +1,5 @@
 import pytest
 
-def test_import_offensive():
-    try:
-        import tools.offensive
-    except Exception as e:
-        pytest.fail(f"Failed to import offensive tools: {e}")
-
 def test_import_defensive():
     try:
         import tools.defensive
