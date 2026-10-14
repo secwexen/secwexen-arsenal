@@ -1,70 +1,103 @@
+"""Check public profile URLs for a username across supported platforms."""
+
+import sys
+from typing import Dict
+from urllib.parse import quote
+
 import requests
-from typing import Dict, List
-from utils import log_info, log_warning, log_error
+
+from utils import log_info, log_warning
+
 
 PLATFORMS: Dict[str, str] = {
     "GitHub": "https://github.com/{user}",
     "GitLab": "https://gitlab.com/{user}",
     "Twitter": "https://x.com/{user}",
-    "Instagram": "https://www.instagram.com/{user}",
-    "TikTok": "https://www.tiktok.com/@{user}",
-    "Reddit": "https://www.reddit.com/user/{user}",
-    "YouTube": "https://www.youtube.com/@{user}",
     "Medium": "https://medium.com/@{user}",
-    "Pinterest": "https://www.pinterest.com/{user}",
-    "HackerOne": "https://hackerone.com/{user}"
+    "HackerOne": "https://hackerone.com/{user}",
 }
 
-def _check_profile(url: str, timeout: int = 8) -> bool:
 
+def _check_profile(url: str, timeout: int = 8) -> bool:
+    """Return whether a profile URL appears to be accessible."""
     try:
-        resp = requests.get(url, timeout=timeout, allow_redirects=True)
-        if resp.status_code == 200:
+        response = requests.get(
+            url,
+            timeout=timeout,
+            allow_redirects=True,
+        )
+
+        if response.status_code == 200:
             return True
-        if resp.status_code in (301, 302) and "login" not in resp.text.lower():
+
+        if (
+            response.status_code in (301, 302)
+            and "login" not in response.text.lower()
+        ):
             return True
-    except requests.RequestException:
-        pass
+
+    except requests.RequestException as exc:
+        log_warning(f"[OSINT] Request failed for {url}: {exc}")
+
     return False
 
+
 def lookup_username(username: str) -> Dict[str, str]:
+    """Check a username against the configured public profile URLs."""
+    normalized_username = username.strip().lstrip("@")
 
-    username = username.strip()
-    log_info(f"[OSINT] Starting username lookup for: {username}")
+    if not normalized_username:
+        log_warning("[OSINT] Username cannot be empty.")
+        return {}
 
+    log_info(
+        f"[OSINT] Starting username lookup for: "
+        f"{normalized_username}"
+    )
+
+    encoded_username = quote(normalized_username, safe="")
     results: Dict[str, str] = {}
 
-    for platform, url_template in PLATFORMS.items():
-        url = url_template.format(user=username)
-        log_info(f"[OSINT] Checking {platform}: {url}")
+    for platform_name, url_template in PLATFORMS.items():
+        url = url_template.format(user=encoded_username)
 
-        exists = _check_profile(url)
+        log_info(f"[OSINT] Checking {platform_name}: {url}")
 
-        if exists:
-            log_info(f"[OSINT] FOUND on {platform}")
-            results[platform] = url
+        if _check_profile(url):
+            log_info(f"[OSINT] FOUND on {platform_name}")
+            results[platform_name] = url
         else:
-            results[platform] = "Not Found"
+            results[platform_name] = "Not Found"
 
-    found_count = sum(1 for v in results.values() if v != "Not Found")
+    found_count = sum(
+        1
+        for status in results.values()
+        if status != "Not Found"
+    )
 
     if found_count == 0:
-        log_warning(f"[OSINT] No profiles found for username: {username}")
+        log_warning(
+            "[OSINT] No profiles found for username: "
+            f"{normalized_username}"
+        )
     else:
-        log_info(f"[OSINT] Username lookup completed. Found on {found_count} platform(s).")
+        log_info(
+            "[OSINT] Username lookup completed. "
+            f"Found on {found_count} platform(s)."
+        )
 
     return results
 
-if __name__ == "__main__":
-    import sys
 
+if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python username_lookup.py <username>")
         sys.exit(1)
 
-    user = sys.argv[1]
-    results = lookup_username(user)
+    target_username = sys.argv[1]
+    lookup_results = lookup_username(target_username)
 
-    print(f"\n[OSINT] Results for username '{user}':")
-    for platform, status in results.items():
-        print(f" - {platform}: {status}")
+    print(f"\n[OSINT] Results for username '{target_username}':")
+
+    for service_name, status in lookup_results.items():
+        print(f" - {service_name}: {status}")
