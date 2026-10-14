@@ -1,23 +1,33 @@
+"""Monitor Windows and Linux firewall events and record changes."""
+
 import os
 import platform
 import subprocess
 import time
-from utils import log_info, log_warning, log_error
+
+from utils import log_info, log_error
 
 
-LOG_FILE = "/var/log/secwexen_firewall.log" if os.name != "nt" else "C:\\Secwexen\\logs\\firewall.log"
+LOG_FILE = (
+    "/var/log/secwexen_firewall.log"
+    if os.name != "nt"
+    else "C:\\Secwexen\\logs\\firewall.log"
+)
 
 
-def write_log(message: str):
+def write_log(message: str) -> None:
+    """Append a message to the firewall log and report it through the logger."""
     try:
-        with open(LOG_FILE, "a", encoding="utf-8") as f:
-            f.write(message + "\n")
-    except Exception as e:
-        log_error(f"Failed to write log: {e}")
+        with open(LOG_FILE, "a", encoding="utf-8") as log_file:
+            log_file.write(message + "\n")
+    except OSError as exc:
+        log_error(f"Failed to write log: {exc}")
 
     log_info(message)
 
-def watch_windows_firewall():
+
+def watch_windows_firewall() -> None:
+    """Monitor Windows Firewall rules for additions and removals."""
     log_info("[FIREWALL] Windows firewall watcher started.")
 
     previous_rules = set()
@@ -25,10 +35,18 @@ def watch_windows_firewall():
     while True:
         try:
             result = subprocess.check_output(
-                ["powershell", "-Command", "Get-NetFirewallRule | Select-Object -ExpandProperty Name"],
+                [
+                    "powershell",
+                    "-Command",
+                    (
+                        "Get-NetFirewallRule | "
+                        "Select-Object -ExpandProperty Name"
+                    ),
+                ],
                 stderr=subprocess.DEVNULL,
-                text=True
+                text=True,
             )
+
             current_rules = set(result.splitlines())
 
             new_rules = current_rules - previous_rules
@@ -41,22 +59,26 @@ def watch_windows_firewall():
 
             previous_rules = current_rules
 
-        except Exception as e:
-            log_error(f"Windows firewall watcher error: {e}")
+        except (subprocess.SubprocessError, OSError) as exc:
+            log_error(f"Windows firewall watcher error: {exc}")
 
         time.sleep(5)
 
 
-def watch_linux_firewall():
+def watch_linux_firewall() -> None:
+    """Monitor Linux firewall logs for potential blocking events."""
     log_info("[FIREWALL] Linux firewall watcher started.")
 
     log_paths = [
         "/var/log/ufw.log",
         "/var/log/kern.log",
-        "/var/log/syslog"
+        "/var/log/syslog",
     ]
 
-    log_file = next((p for p in log_paths if os.path.isfile(p)), None)
+    log_file = next(
+        (path for path in log_paths if os.path.isfile(path)),
+        None,
+    )
 
     if not log_file:
         log_error("No firewall log file found (ufw/kern/syslog).")
@@ -64,13 +86,30 @@ def watch_linux_firewall():
 
     log_info(f"Monitoring firewall log: {log_file}")
 
-    with subprocess.Popen(["tail", "-Fn0", log_file], stdout=subprocess.PIPE, text=True) as proc:
-        for line in proc.stdout:
-            if any(keyword in line.lower() for keyword in ["blocked", "deny", "reject", "drop"]):
-                write_log(f"[!] Firewall event: {line.strip()}")
+    try:
+        with subprocess.Popen(
+            ["tail", "-Fn0", log_file],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL,
+            text=True,
+        ) as process:
+            if process.stdout is None:
+                log_error("Unable to read the firewall log stream.")
+                return
+
+            for line in process.stdout:
+                if any(
+                    keyword in line.lower()
+                    for keyword in ("blocked", "deny", "reject", "drop")
+                ):
+                    write_log(f"[!] Firewall event: {line.strip()}")
+
+    except OSError as exc:
+        log_error(f"Linux firewall watcher error: {exc}")
 
 
-def watch_firewall():
+def watch_firewall() -> None:
+    """Select and start the firewall watcher for the current operating system."""
     system = platform.system().lower()
 
     if system == "windows":
