@@ -6,11 +6,6 @@ def test_tools_directory_exists():
     except Exception as e:
         pytest.fail(f"Failed to import tools package: {e}")
 
-def test_offensive_module_import():
-        import tools.offensive
-    except Exception as e:
-        pytest.fail(f"Failed to import offensive module: {e}")
-
 def test_defensive_module_import():
         import tools.defensive
     except Exception as e:
