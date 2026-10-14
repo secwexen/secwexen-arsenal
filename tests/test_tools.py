@@ -1,19 +1,18 @@
-import pytest
+"""Tests for importing the Secwexen Arsenal tool packages."""
 
-def test_import_defensive():
-    try:
-        import tools.defensive
-    except Exception as e:
-        pytest.fail(f"Failed to import defensive tools: {e}")
+import importlib
 
-def test_import_osint():
-    try:
-        import tools.osint
-    except Exception as e:
-        pytest.fail(f"Failed to import osint tools: {e}")
 
-def test_import_automation():
-    try:
-        import tools.automation
-    except Exception as e:
-        pytest.fail(f"Failed to import automation tools: {e}")
+def test_import_defensive() -> None:
+    """Verify that the defensive tools package can be imported."""
+    importlib.import_module("tools.defensive")
+
+
+def test_import_osint() -> None:
+    """Verify that the OSINT tools package can be imported."""
+    importlib.import_module("tools.osint")
+
+
+def test_import_automation() -> None:
+    """Verify that the automation tools package can be imported."""
+    importlib.import_module("tools.automation")
