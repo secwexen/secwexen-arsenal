@@ -5,7 +5,7 @@
 
 ## About
 
-**Secwexen Arsenal** is a personal **cybersecurity toolkit** focused on **defensive security, blue team operations, OSINT, security monitoring, threat hunting, incident response, and security automation**.
+Secwexen Arsenal is a personal **cybersecurity toolkit** focused on **defensive security, blue team operations, OSINT, security monitoring, threat hunting, incident response, and security automation**.
 
 The project brings together multi-language security utilities written in **Python, Bash, Shell, and PowerShell**, designed to support practical workflows in **security research, system monitoring, and security analysis**.
 
