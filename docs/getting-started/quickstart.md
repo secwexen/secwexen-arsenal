@@ -9,8 +9,10 @@ This quickstart file helps you run your first Secwexen Arsenal request in under 
 git clone https://github.com/secwexen/secwexen-arsenal.git
 cd secwexen-arsenal
 
-# 2. Create virtual environment
+# Create virtual environment
 python -m venv .venv
+
+# Activate virtual environment
 source .venv/bin/activate     # Linux/Mac
 .\.venv\Scripts\Activate.ps1  # Windows
 
