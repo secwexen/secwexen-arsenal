@@ -79,8 +79,10 @@ For full details, refer to the [Installation Guide](docs/getting-started/install
 git clone https://github.com/secwexen/secwexen-arsenal.git
 cd secwexen-arsenal
 
-# 2. Create virtual environment
+# Create virtual environment
 python -m venv .venv
+
+# Activate virtual environment
 source .venv/bin/activate     # Linux/Mac
 .\.venv\Scripts\Activate.ps1  # Windows
 
