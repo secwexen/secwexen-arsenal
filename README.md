@@ -75,7 +75,7 @@ For full details, refer to the [Installation Guide](docs/getting-started/install
 ### 1. Clone & Setup
 
 ```bash
-# 1. Clone repository
+# Clone repository
 git clone https://github.com/secwexen/secwexen-arsenal.git
 cd secwexen-arsenal
 
@@ -86,10 +86,10 @@ python -m venv .venv
 source .venv/bin/activate     # Linux/Mac
 .\.venv\Scripts\Activate.ps1  # Windows
 
-# 3. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 4. Install development dependencies
+# Install development dependencies
 pip install -r requirements-dev.txt
 ```
 
