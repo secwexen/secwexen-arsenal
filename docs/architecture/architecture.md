@@ -120,7 +120,7 @@ utils/
 demo/
 ├── osint_demo.py
 ├── defensive_demo.py
-└── offensive_demo.py
+└── bash_demo.py
 ```
 
 ## Testing
