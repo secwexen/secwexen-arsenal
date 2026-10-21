@@ -44,6 +44,7 @@ python -m tools.defensive.python.malware_scanner
 ```python
 python demo/osint_demo.py
 python demo/defensive_demo.py
+python demo/bash_demo.py
 ```
 
 ### Bash Scripts (Linux / macOS)
