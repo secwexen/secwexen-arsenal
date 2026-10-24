@@ -25,8 +25,6 @@ pip install -r requirements-dev.txt
 
 ## 2. Run Tests
 
-The project includes automated tests.
-
 ```python
 # Run the full pytest suite
 python -m pytest -v
