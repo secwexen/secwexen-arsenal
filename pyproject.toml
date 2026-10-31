@@ -48,7 +48,7 @@ dependencies = [
     "beautifulsoup4",
     "lxml",
     "pandas",
-    "cryptography>=46.0.5",
+    "cryptography>=46.0.7",
     "dnspython",
     "python-whois",
     "shodan",
@@ -73,7 +73,7 @@ Homepage = "https://secwexen.github.io/"
 Repository = "https://github.com/secwexen/secwexen-arsenal"
 
 [project.scripts]
-secwexenarsenal = "secwexenarsenal.cli.main:main"
+secwexenarsenal = "cli.main:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
