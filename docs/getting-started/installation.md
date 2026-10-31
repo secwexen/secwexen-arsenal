@@ -6,9 +6,9 @@ This file will help you install Secwexen Arsenal in your local development envir
 
 ### Supported Operating Systems
 
-- **Linux** — Recommended for development, testing, and deployment
-- **Windows** — Supported for development and testing with Visual Studio Code and WSL2
-- **macOS** — Supported for local development and testing
+- **Linux**: Recommended for development, testing, and deployment
+- **Windows**: Supported for development and testing with Visual Studio Code and WSL2
+- **macOS**: Supported for local development and testing
 
 ### Requirements
 
