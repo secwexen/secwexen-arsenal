@@ -54,7 +54,7 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 
 The repository includes ready-to-run demo scripts in the `demo/` folder to quickly showcase the core capabilities of the toolkit.
 
-```python
+```bash
 # Defensive Demo
 python demo/defensive_demo.py
 
