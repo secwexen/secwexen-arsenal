@@ -50,6 +50,21 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 | Automation | Backup-Files.ps1         | File backup automation                 |
 | Automation | Sync-Drives.ps1          | Drive synchronization utility          |
 
+## Demo
+
+The repository includes ready-to-run demo scripts in the `demo/` folder to quickly showcase the core capabilities of the toolkit.
+
+```python
+# Defensive Demo
+python demo/defensive_demo.py
+
+# OSINT Demo
+python demo/osint_demo.py
+
+# Bash Demo
+bash demo/bash_demo.sh
+```
+
 ## Installation
 
 ### Supported Operating Systems
