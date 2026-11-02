@@ -5,7 +5,7 @@ This document explains the internal architecture, module layout, design principl
 ## Directory Structure
 
 ```text
-secwexen-arsenal
+.
 │   .gitattributes
 │   .gitignore
 │   .pre-commit-config.yaml
