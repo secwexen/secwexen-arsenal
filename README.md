@@ -132,6 +132,7 @@ For full details, refer to the [Usage](docs/usage.md) file.
 ## Documentation
 
 - [Architecture](docs/architecture/architecture.md)
+- [Getting Started](docs/getting-started/getting-started.md)
 
 ## License
 
