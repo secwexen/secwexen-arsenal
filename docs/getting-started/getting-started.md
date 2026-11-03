@@ -59,14 +59,6 @@ You can also install the project in editable mode:
 pip install -e .
 ```
 
-## Run the CLI
-
-The project exposes a command-line entry point:
-
-```bash
-secwexenarsenal --help
-```
-
 ## Run Demo Scripts
 
 The repository includes ready-to-use demos in the `demo/` directory:
