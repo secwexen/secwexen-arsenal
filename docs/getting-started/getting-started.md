@@ -53,12 +53,6 @@ For development tools and lint/test dependencies:
 pip install -r requirements-dev.txt
 ```
 
-You can also install the project in editable mode:
-
-```bash
-pip install -e .
-```
-
 ## Run Demo Scripts
 
 The repository includes ready-to-use demos in the `demo/` directory:
@@ -75,24 +69,4 @@ To validate the project locally:
 
 ```bash
 python -m pytest -v
-```
-
-## Project Structure
-
-```text
-.
-├── cli/                 # CLI application
-├── demo/                # Demo scripts
-├── docs/                # Project documentation
-├── tools/               # Security tools and utilities
-├── utils/               # Shared helper modules
-├── tests/               # Test suite
-├── README.md
-├── LICENSE
-├── SECURITY.md
-├── DISCLAIMER.md
-├── pyproject.toml
-├── requirements.txt
-├── requirements-dev.txt
-└── Makefile
 ```
