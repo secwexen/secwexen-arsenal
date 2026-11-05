@@ -138,7 +138,7 @@ For full details, refer to the [Usage](docs/usage.md) file.
 
 Copyright © 2026 secwexen.
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.  
 See the [LICENSE](LICENSE) file for full details.
 
 ## Security
