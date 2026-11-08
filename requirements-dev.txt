@@ -1,9 +1,11 @@
 # === Testing ===
 pytest
 pytest-cov
+pytest-asyncio
 
 # === Code Formatting ===
 black
+ruff
 isort
 
 # === Linting & Style ===
