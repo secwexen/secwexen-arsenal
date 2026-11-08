@@ -29,26 +29,26 @@ See [Ethics & Responsible Use Guidelines](docs/legal/ethics.md) for details.
 
 ## Tool Index
 
-| Category   | Tool                     | Description                            |
-| ---------- | ------------------------ | -------------------------------------- |
-| Defensive  | firewall_watcher.py      | Firewall activity monitoring           |
-| Defensive  | log_monitor.py           | System log monitoring utility          |
-| Defensive  | malware_scanner.py       | Basic malware scanning helper          |
-| Defensive  | backup_watch.sh          | Backup directory and status monitoring |
-| Defensive  | check_integrity.sh       | File and system integrity checker      |
-| Defensive  | monitor_logs.sh          | Shell-based system log monitor         |
-| Defensive  | Check-DefenderStatus.ps1 | Windows Defender status verification   |
-| Defensive  | Get-EventLogs.ps1        | Windows Event log retrieval utility    |
-| Defensive  | Monitor-Processes.ps1    | System process monitoring helper       |
-| OSINT      | email_harvester.py       | Email collection utility               |
-| OSINT      | subdomain_finder.py      | Subdomain enumeration                  |
-| OSINT      | username_lookup.py       | Username footprint lookup              |
-| Automation | auto_backup.sh           | Automated backup workflow              |
-| Automation | cleanup.sh               | Cleanup and maintenance helper         |
-| Automation | deploy_script.sh         | Deployment automation                  |
-| Automation | Auto-Deploy.ps1          | Windows deployment helper              |
-| Automation | Backup-Files.ps1         | File backup automation                 |
-| Automation | Sync-Drives.ps1          | Drive synchronization utility          |
+| Category   | Tool                       | Description                            |
+| ---------- | -------------------------- | -------------------------------------- |
+| Defensive  | `firewall_watcher.py`      | Firewall activity monitoring           |
+| Defensive  | `log_monitor.py`           | System log monitoring utility          |
+| Defensive  | `malware_scanner.py`       | Basic malware scanning helper          |
+| Defensive  | `backup_watch.sh`          | Backup directory and status monitoring |
+| Defensive  | `check_integrity.sh`       | File and system integrity checker      |
+| Defensive  | `monitor_logs.sh`          | Shell-based system log monitor         |
+| Defensive  | `Check-DefenderStatus.ps1` | Windows Defender status verification   |
+| Defensive  | `Get-EventLogs.ps1`        | Windows Event log retrieval utility    |
+| Defensive  | `Monitor-Processes.ps1`    | System process monitoring helper       |
+| OSINT      | `email_harvester.py`       | Email collection utility               |
+| OSINT      | `subdomain_finder.py`      | Subdomain enumeration                  |
+| OSINT      | `username_lookup.py`       | Username footprint lookup              |
+| Automation | `auto_backup.sh`           | Automated backup workflow              |
+| Automation | `cleanup.sh`               | Cleanup and maintenance helper         |
+| Automation | `deploy_script.sh`         | Deployment automation                  |
+| Automation | `Auto-Deploy.ps1`          | Windows deployment helper              |
+| Automation | `Backup-Files.ps1`         | File backup automation                 |
+| Automation | `Sync-Drives.ps1`          | Drive synchronization utility          |
 
 ## Demo
 
