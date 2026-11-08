@@ -81,7 +81,7 @@ secwexenarsenal = "cli.main:main"
 where = ["."]
 
 [tool.pytest.ini_options]
-addopts = "--cov --cov-report=term-missing"
+addopts = "--cov=. --cov-report=term-missing --cov-report=html"
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
