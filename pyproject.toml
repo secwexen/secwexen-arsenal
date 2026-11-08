@@ -59,7 +59,9 @@ dependencies = [
 dev = [
     "pytest",
     "pytest-cov",
+    "pytest-asyncio",
     "black",
+    "ruff",
     "isort",
     "flake8",
     "pylint",
@@ -77,3 +79,51 @@ secwexenarsenal = "cli.main:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report=term-missing"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.coverage.run]
+branch = true
+source = [
+    "tools",
+    "cli",
+]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+]
+
+[tool.coverage.html]
+directory = "reports/coverage"
+
+[tool.black]
+line-length = 120
+target-version = ["py313"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "S"]
+ignore = []
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+ignore_missing_imports = true
