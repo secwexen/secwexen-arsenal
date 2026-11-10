@@ -14,7 +14,6 @@ This file will help you install Secwexen Arsenal in your local development envir
 
 - Python 3.13+
 - PowerShell 7+
-- Shell
 - Bash
 - Git
 - Pytest
