@@ -77,7 +77,6 @@ bash demo/bash_demo.sh
 
 - Python 3.13+
 - PowerShell 7+
-- Shell
 - Bash
 - Make
 - Git
