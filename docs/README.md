@@ -16,6 +16,10 @@ Complete guide to Secwexen Arsenal documentation, resources, and learning materi
 
 - [Usage Guide](guides/usage.md) - How to use Secwexen Arsenal
 
+## Testing
+
+- [Testing Guide](testing/testing.md) - Run, validate, and troubleshoot project tests
+
 ## Legal
 
 - [Ethics](legal/ethics.md) - Ethical principles and responsible use
