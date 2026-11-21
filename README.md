@@ -109,8 +109,9 @@ pip install -r requirements-dev.txt
 
 ### 2. Run Tests
 
+Run the full pytest suite:
+
 ```python
-# Run the full pytest suite
 python -m pytest -v
 ```
 
