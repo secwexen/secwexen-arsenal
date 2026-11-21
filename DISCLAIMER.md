@@ -13,7 +13,7 @@ You are allowed to use these tools only in:
 - Systems where you have explicit written permission
 - Authorized penetration testing engagements
 
-Any misuse of the tools — including unauthorized access, exploitation, or activities that violate local or international laws — is strictly prohibited.
+Any misuse of the tools - including unauthorized access, exploitation, or activities that violate local or international laws - is strictly prohibited.
 
 The author(s), developers, contributors, and maintainers assumes no responsibility for:
 
