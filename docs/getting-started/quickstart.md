@@ -25,7 +25,7 @@ pip install -r requirements-dev.txt
 
 ## 2. Run Tests
 
-# Run the full pytest suite
+Run the full pytest suite:
 
 ```python
 python -m pytest -v
