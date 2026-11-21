@@ -144,4 +144,4 @@ See the [LICENSE](LICENSE) file for full details.
 
 If you discover a security vulnerability, please follow our responsible disclosure process.
 
-See [SECURITY](SECURITY.md) for detailed information.
+See [Security Policy](SECURITY.md) for detailed information.
