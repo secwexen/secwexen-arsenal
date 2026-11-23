@@ -3,6 +3,7 @@ Unit tests for the Secwexen Arsenal command-line interface.
 """
 
 import os
+import pytest
 
 from _pytest.monkeypatch import MonkeyPatch
 
@@ -27,7 +28,7 @@ class TestCLI:
         expected_command = "cls" if os.name == "nt" else "clear"
         assert system_calls == [expected_command]
 
-    def test_print_banner(self, monkeypatch: MonkeyPatch) -> None:
+    def test_print_banner(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Verify that the application banner is displayed."""
         output: list[str] = []
 
@@ -40,7 +41,7 @@ class TestCLI:
 
         assert len(output) == 1
         assert "A R S E N A L" in output[0]
-        assert "SECWEXEN" in output[0]
+        assert "███████╗" in output[0]
 
     def test_main(self, monkeypatch: MonkeyPatch) -> None:
         """Verify that main executes CLI operations in order."""
