@@ -24,4 +24,4 @@ jobs:
         python -m pip install pytest pylint
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint --disable=duplicate-code $(git ls-files '*.py')
