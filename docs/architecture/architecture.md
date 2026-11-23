@@ -6,6 +6,7 @@ This document explains the internal architecture, module layout, design principl
 
 ```text
 .
+│   .editorconfig
 │   .gitattributes
 │   .gitignore
 │   .pre-commit-config.yaml
@@ -24,7 +25,6 @@ This document explains the internal architecture, module layout, design principl
 │   └───workflows
 │           ci.yml
 │           codeql.yml
-│           makefile.yml
 │           powershell.yml
 │           pylint.yml
 │           python-package.yml
@@ -39,24 +39,38 @@ This document explains the internal architecture, module layout, design principl
 │       osint_demo.py
 │       
 ├───docs
+│   │   README.md
+│   │   
 │   ├───architecture
 │   │       architecture.md
 │   │       
 │   ├───getting-started
+│   │       getting-started.md
 │   │       installation.md
 │   │       quickstart.md
 │   │       
 │   ├───guides
 │   │       usage.md
 │   │       
-│   └───legal
-│           ethics.md
+│   ├───legal
+│   │       ethics.md
+│   │       
+│   └───testing
+│           testing.md
 │           
 ├───tests
-│       test_core.py
-│       test_tools.py
-│       test_utils.py
-│       
+│   │   conftest.py
+│   │   
+│   ├───cli
+│   │       test_cli.py
+│   │       
+│   ├───tools
+│   │       test_tools.py
+│   │       
+│   └───unit
+│           test_core.py
+│           test_utils.py
+│           
 ├───tools
 │   ├───automation
 │   │   ├───bash
